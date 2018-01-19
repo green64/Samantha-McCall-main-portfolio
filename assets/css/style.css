@@ -21,10 +21,10 @@ body {
 .shell{
     border: 1px solid #4aaaa5;
     width: 1230px;
-    margin-top: 70px;
     background-image: url("../../assets/images/dust_scratches.png");
     background-repeat: repeat;
     margin: auto;
+    margin-top: 50px;
 }
 
 .header{
