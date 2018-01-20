@@ -1,5 +1,7 @@
 
 
+/* link and hover styles */
+
 a{
     color:  #777777;
 }
@@ -14,9 +16,13 @@ a:hover {
         color:  #4aaaa5;
 }
 
+/* default body style */
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+/* holds the background */
 
 .shell{
     border: 1px solid #4aaaa5;
@@ -27,12 +33,16 @@ body {
     margin-top: 50px;
 }
 
+/* holds name and top right menu */
+
 .header{
     background-color: #ffffff;
     height: 100px;
     width: 1230px;
     border-bottom: 1px solid #cccccc;
     }
+
+/* name div */
 
 .name {
     float: left;
@@ -47,10 +57,14 @@ body {
     background-color: #4aaaa5;
 }
 
+/* rule */
+
 hr.project {
     color: lightgrey;
     margin-bottom: 20px;
 }
+
+/* container for links below */
 
 .menu {
     float: right;
@@ -60,6 +74,8 @@ hr.project {
     margin-right: 142px;
 }
 
+/* content for about etc */
+
 p.top_right {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
@@ -68,6 +84,8 @@ p.top_right {
     word-spacing: 10px;
     padding: 10px 0px 5px 10px;
 }
+
+/* holds main page content whether it's text or images or form */
 
 .content {
 float:left;
@@ -88,6 +106,8 @@ border: .5px solid #dddddd;
     display: table;
 }
 
+/* headline */
+
 h1 {
     font-family: "Georgia", Times, "Times New Roman", serif;
     color: #4aaaa5;
@@ -96,11 +116,15 @@ h1 {
     font-weigt: bolder;
 }
 
+/* my name */
+
 h1#name_style {
     color: #ffffff;
     margin-bottom: 15px;
     padding-top: 10px;
 }
+
+/* subhead and connect with me style */
 
 h2 {
     font-family: "Georgia", Times, "Times New Roman", serif;
@@ -111,6 +135,33 @@ h2 {
     font-weigt: bolder;
 }
 
+/* portfolio images sit in these */
+
+.container {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    position: relative;
+    padding-left: 20px;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    width: 275px;
+    height: 206px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    padding: 20px 0px 20px 0px;
+    font-size: 22px;
+    bottom: 10px;
+    width: 275px;
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+/* main section content */
+
 p.section {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
@@ -120,6 +171,8 @@ p.section {
     line-height: 150%;
     margin-bottom: 8px;
 }
+
+/* needed this because reset removed bullets */
 
 ul.a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -133,6 +186,8 @@ ul.a {
     list-style-position:inside;
 }
 
+/* footer content */
+
 p.small {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 11px;
@@ -140,6 +195,8 @@ p.small {
     color: #e0d6d6;
     margin-top: 30px;
 }
+
+/* text in form */
 
 p.form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -152,11 +209,15 @@ p.form {
     padding-bottom: 2px;
 }
 
+/* form fields */
+
 input{
     height: 40px;
     width: 600px;
     overflow: auto;
 }
+
+/* form button */
 
 .button {
     background-color: #4aaaa5;
@@ -174,16 +235,19 @@ input{
     filter: alpha(opacity=100);
 }
 
-.button:hover
-{
+.button:hover {
 opacity: 0.3;
 filter: alpha(opacity=30);
 }
+
+/* about page image */
 
 img.headshot {
     float: left;
     margin-right: 20px;
 }
+
+/* connect with me div */
 
 .nav {
     float: left;
@@ -194,6 +258,8 @@ img.headshot {
     border: .5px solid #dddddd;
 }
 
+/* footer */
+
 .footer{
     clear: both;
     background-color: #666666;
@@ -201,6 +267,8 @@ img.headshot {
     width: 1230px;
     border-top: 5px solid #4aaaa5;
     }
+
+/* icon style and hover */
 
 img.icon {
     float:left;
@@ -213,21 +281,4 @@ img.icon {
 {
 opacity: 0.3;
 filter: alpha(opacity=30);
-}
-
-.port {
-    position: relative;
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-.port .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.port:hover .img-top {
-    display: inline;
 }
