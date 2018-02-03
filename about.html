@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Samantha McCall</title>
+    <title>Responsive index</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/index_style.css">
 </head>
 
 <body>
@@ -19,33 +18,35 @@
         <div class="header">
             <!--this is teal box with name -->
             <div class="name">
-                <h1 id="name_style">Samantha McCall</h1>
+                <a href="index.html">
+                    <h1 id="name_style">Samantha McCall</h1>
+                </a>
             </div>
             <!--this is div with menu -->
             <div class="menu clearfix">
                 <p class="top_right">
-                    <a href="index.html">About</a> |
+                    <a href="about.html">About</a> |
                     <a href="portfolio.html">Portfolio</a> |
                     <a href="contact.html">Contact</a>
                 </p>
             </div>
         </div>
         <div class="content">
-            <h1 class="about">Contact</h1>
+            <h1>About Me</h1>
             <hr class="project">
-            <form action="mailto:samanthaadams.biz@gmail.com" method="post" enctype="text/plain">
-                <p class="form">Name</p>
-                <input type="text" name="name">
-                <br>
-                <p class="form">Email</p>
-                <input type="text" name="mail">
-                <br>
-                <p class="form">Message</p>
-                <input style="height:275px" type="text" name="comment">
-                <br>
-                <br>
-                <input style="width:115px" type="submit" class="button" value="Submit">
-            </form>
+            <img src="assets/images/sm_headshot.png" class="headshot" alt="Samantha McCall" height="290" width="216">
+            <p class="section">As a redheaded, left-handed Scorpio, I was destined to do things differently. I started my career in print publishing,
+                but once I learned HTML, the immediate gratification of making a correction and seeing it online in seconds
+                resonated with me.</p>
+            <p class="section">I love learning, so I'm very much at home in KU's coding program. With each new skill I acquire, I'm more eager
+                to make the shift from the marketing to the IT side of digital communications. The experience I've already
+                acquired -- content writing, SEO, cross-channel marketing, etc. -- combined with up-to-date experience in
+                full stack programming will undoubtedly dovetail nicely in my future coding roles.
+            </p>
+            <p class="section">When I'm not researching and writing code, I'm a mom, a cat lover, a die-hard fan of the arts and a semi-successful
+                gardener. I travel whenever I can and am planning my first visit to the great state of Ohio this spring to
+                attend
+                <a href="https://ntlhomecoming.com/" target="_blank">Homecoming</a> in Cincinnati that's being put on by my favorite band, The National.</p>
 
         </div>
 
@@ -64,11 +65,14 @@
             </a>
         </div>
 
-        <!--footer slightly different text color used here because #777777 wouldn't show up against the background -->
+        <!--footer -->
         <div class="footer">
             <p class="small">Copyright @ 2018 Samantha McCall</p>
         </div>
     </div>
+    <script>
+        alert("This portfolio puts the work in \"work in progress.\" Watch for changes coming soon!")
+    </script>
 </body>
 
 </html>
