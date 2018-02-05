@@ -1,82 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-height">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive index</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/index_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- I think this is extra <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        h1 {
+            color: #343a40;
+            font-family: "Quicksand", sans-serif;
+            font-weight: bolder;
+            font-size: 42px;
+        }
+
+        h2 {
+            background-color: #343a40;
+            color: rgb(240, 231, 231);
+            font-family: "Quicksand", sans-serif;
+            font-size: 30px;
+        }
+
+        h3 {
+            font-family: "Raleway", sans-serif;
+            font-weight: bolder;
+            font-size: 21px;
+        }
+
+        p {
+            font-family: "Raleway", sans-serif;
+        }
+
+        a {
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+        }
+
+        li {
+            font-family: "Raleway", sans-serif;
+            font-style: italic;
+        }
+
+        .intro-2 {
+            background: url("assets/images/memorial.png");
+            background-size: cover;
+            height: 100%;
+            background-position: no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .header {
+            position: relative;
+            margin-top: 22%;
+        }
+
+        .nav-bg {
+            background-color: #343a40;
+        }
+    </style>
+    <title>Samantha's Portfolio in Progress</title>
 </head>
 
 <body>
 
-    <!--this is big gray box with 1 pt rule  -->
-    <div class="shell">
-        <!--this is top white space -->
-        <div class="header">
-            <!--this is teal box with name -->
-            <div class="name">
-                <a href="index.html">
-                    <h1 id="name_style">Samantha McCall</h1>
-                </a>
+    <div class="intro-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <h2>Samantha McCall</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="about.html">about<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">contact</a>
+                </div>
             </div>
-            <!--this is div with menu -->
-            <div class="menu clearfix">
-                <p class="top_right">
-                    <a href="about.html">About</a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a>
-                </p>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="my-3 p-3 rounded bg-white border border-secondary">
+                        <h3 class="main py-3 pr-3 border-bottom">About Me</h3>
+                        <img src="assets/images/sm_headshot.png" class="img-fluid rounded float-left mr-3 mt-3" alt="Responsive image">
+                        <p class="section pt-3">Fresh perspective. It's important to me because it's the payoff for thinking independently. My cover
+                            picture is awesome, isn't it? Some far off place full of intrigue and stories ...</p>
+                        <p class="section">
+                            Actually, it's in Kansas City! It's a well-known landmark -- the WWI Memorial right across from Union Station. But thanks
+                            to fresh perspective, it has every bit as much intrigue as a famous landmark in some far-off
+                            land.
+                        </p>
+                        <p class="section"> As a redheaded, left-handed Scorpio, I was destined to do things differently. I started my career
+                            in print publishing, but once I learned HTML, the immediate gratification of making a correction
+                            and seeing it online in seconds resonated with me.</p>
+                        <p class="section">I love learning, so I'm very much at home in KU's coding program. With each new skill I acquire,
+                            I'm more eager to make the shift from the marketing to the IT side of digital communications.
+                            The experience I've already acquired -- content writing, SEO, cross-channel marketing, etc. --
+                            combined with up-to-date experience in full stack programming will undoubtedly dovetail nicely
+                            in my future coding roles.</p>
+                        <p class="section">When I'm not researching and writing code, I'm an adoring mom, a cat and all-round animal lover,
+                            a die-hard alternative music fan and a semi-successful gardener. I travel whenever I can and
+                            am planning my first visit to the great state of Ohio this spring to attend
+                            <a href="https://ntlhomecoming.com/" target="_blank">Homecoming</a> in Cincinnati, a festival curated by my favorite band, The National.</p>
+                        <p class="section">In the meantime, I'm learning something new EVERY DAY. And this work-in-progress portfolio will reflect that knowledge acquisition.</p>
+                    </div>
+                </div>
+                <!--portfolio ends here -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="my-3 p-3 rounded bg-white border border-secondary">
+                        <h3 class="py-3 pr-3 border-bottom">
+                            <span style="font-size:1em; color:#9eb1d3" class="fas fa-hand-point-right" aria-hidden="true"></span> Connect With Me</h3>
+
+                        <a href="https://github.com/green64" target="_blank">
+                            <img src="assets/images/github60.png" class="img-fluid img-thumbnail rounded mt-3" alt="Responsive image My Github profile">
+                        </a>
+                        <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
+                            <img src="assets/images/linked_in60.png" class="img-fluid img-thumbnail rounded ml-2 mt-3" alt="Responsive image My LinkedIn profile">
+                        </a>
+                        <a href="https://stackexchange.com/users/11996404/s-mccall" target="_blank">
+                            <img src="assets/images/stack60.png" class="img-fluid img-thumbnail rounded ml-2 mt-3" alt="Responsive image My Stack Exchange profile">
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="content">
-            <h1>About Me</h1>
-            <hr class="project">
-            <img src="assets/images/sm_headshot.png" class="headshot" alt="Samantha McCall" height="290" width="216">
-            <p class="section">Fresh perspective. It's important to me because it's the payoff for thinking independently. My cover picture
-                is awesome, isn't it? Some far off place full of intrigue and stories ... Actually, it's in Kansas City!
-                It's a well-known landmark -- the WWI Memorial right across from Union Station. But thanks to fresh perspective,
-                it has every bit as much intrigue as a famous landmark in some far-off land.</p>
-            <p class="section"> As a redheaded, left-handed Scorpio, I was destined to do things differently. I started my career in print publishing,
-                but once I learned HTML, the immediate gratification of making a correction and seeing it online in seconds
-                resonated with me.</p>
-            <p class="section">I love learning, so I'm very much at home in KU's coding program. With each new skill I acquire, I'm more eager
-                to make the shift from the marketing to the IT side of digital communications. The experience I've already
-                acquired -- content writing, SEO, cross-channel marketing, etc. -- combined with up-to-date experience in
-                full stack programming will undoubtedly dovetail nicely in my future coding roles.
-            </p>
-            <p class="section">When I'm not researching and writing code, I'm an adoring mom, a cat and all-round animal lover, a die-hard alternative
-                music fan and a semi-successful gardener. I travel whenever I can and am planning my first visit to the great
-                state of Ohio this spring to attend
-                <a href="https://ntlhomecoming.com/" target="_blank">Homecoming</a> in Cincinnati, a festival curated by my favorite band, The National.</p>
 
         </div>
 
-        <!--this is container for main content it will need a larger left margin -->
-        <div class="nav">
-            <h2>Connect with Me</h2>
-            <hr class="project">
-            <a href="https://github.com/green64" target="_blank">
-                <img src="assets/images/github.png" class="icon" alt="My Github profile" height="60" width="60">
-            </a>
-            <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
-                <img src="assets/images/linked_in.png" class="icon" alt="My LinkedIn profile" height="60" width="60">
-            </a>
-            <a href="https://stackexchange.com/users/11996404/s-mccall" target="_blank">
-                <img src="assets/images/stack.png" class="icon" alt="My Stack Exchange profile" height="60" width="60">
-            </a>
-        </div>
 
-        <!--footer -->
-        <div class="footer">
-            <p class="small">Copyright @ 2018 Samantha McCall</p>
-        </div>
-    </div>
-    <script>
-        alert("Too busy mastering MERN to complete my masterpiece. Check back soon!")
-    </script>
+        <!-- these scripts are required by Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

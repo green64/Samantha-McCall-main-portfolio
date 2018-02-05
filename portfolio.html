@@ -1,110 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full-height">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- I think this is extra <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        h1 {
+            color: #343a40;
+            font-family: "Quicksand", sans-serif;
+            font-weight: bolder;
+            font-size: 42px;
+        }
+
+        h2 {
+            background-color: #343a40;
+            color: rgb(240, 231, 231);
+            font-family: "Quicksand", sans-serif;
+            font-size: 30px;
+        }
+
+        h3 {
+            font-family: "Raleway", sans-serif;
+            font-weight: bolder;
+            font-size: 21px;
+        }
+
+        h3.port {
+            font-family: "Raleway", sans-serif;
+            font-weight: bolder;
+            font-size: 21px;
+            color: #f8f8d6;
+        }
+
+        p {
+            font-family: "Raleway", sans-serif;
+        }
+
+        a {
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+        }
+
+        li {
+            font-family: "Raleway", sans-serif;
+            font-style: italic;
+        }
+
+        .intro-2 {
+            background: url("assets/images/memorial.png");
+            background-size: cover;
+            height: 100%;
+            background-position: no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .header {
+            position: relative;
+            margin-top: 22%;
+        }
+
+        .nav-bg {
+            background-color: #343a40;
+        }
+    </style>
+    <title>Samantha's Portfolio in Progress</title>
 </head>
 
 <body>
 
-    <!--this is big gray box with 1 pt rule  -->
-    <div class="shell">
-        <!--this is top white space -->
-        <div class="header">
-            <!--this is teal box with name -->
-            <div class="name">
-                <a href="index.html">
-                    <h1 id="name_style">Samantha McCall</h1>
-                </a>
-            </div>
-            <!--this is div with menu -->
-            <div class="menu clearfix">
-                <p class="top_right">
-                    <a href="about.html">About</a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a>
-                </p>
-            </div>
-        </div>
-        <div class="content">
-            <h1 class="about">Portfolio</h1>
-            <hr class="project">
-            <h2>WIPs anyone?</h2>
-            <p class="section">
-                In no particular order, here's my portfolio of works in progress.
-            </p>
-            <br>
-            <!--portfolio starts here -->
-            <div class="container">
-                <img src="assets/images/portfolio1.jpg" alt="portfolio area 1">
-                <div class="bottom-right">
-                    <p>Heading 1</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="assets/images/portfolio2.jpg" alt="portfolio area 1">
-                <div class="bottom-right">
-                    <p>Heading 2</p>
-                </div>
-            </div>
-            <!--portfolio row 2 -->
-            <div class="container">
-                <img src="assets/images/portfolio3.jpg" alt="portfolio area 1">
-                <div class="bottom-right">
-                    <p>Heading 3</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="assets/images/portfolio4.jpg" alt="portfolio area 1">
-                <div class="bottom-right">
-                    <p>Heading 4</p>
-                </div>
-            </div>
-            <!--portfolio row 3 -->
-            <div class="container">
-                <img src="assets/images/portfolio5.jpg" alt="portfolio area 1">
-                <div class="bottom-right">
-                    <p>Heading 5</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="assets/images/portfolio6.jpg" alt="portfolio area 1">
-                <div class="bottom-right">
-                    <p>Heading 6</p>
-                </div>
-            </div>
-
-            <!--portfolio ends here -->
-        </div>
-
-        <!--this is container for main content it will need a larger left margin -->
-        <div class="nav">
-            <h2>Connect with Me</h2>
-            <hr class="project">
-            <a href="https://github.com/green64" target="_blank">
-                <img src="assets/images/github.png" class="icon" alt="My Github profile" height="60" width="60">
+    <div class="intro-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <h2>Samantha McCall</h2>
             </a>
-            <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
-                <img src="assets/images/linked_in.png" class="icon" alt="My LinkedIn profile" height="60" width="60">
-            </a>
-            <a href="https://stackexchange.com/users/11996404/s-mccall" target="_blank">
-                <img src="assets/images/stack.png" class="icon" alt="My Stack Exchange profile" height="60" width="60">
-            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="about.html">about    
+                    </a>
+                    <a class="nav-item nav-link active" href="portfolio.html">portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="contact.html">contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="my-3 p-3 rounded bg-white border border-secondary">
+                        <h3 class="main py-3 pr-3 border-bottom">Portfolio</h3>
+                        <p>Unbelievably cool stuff coming soon!</p>
+                        <!--portfolio starts here -->
+                        <div class="row m-3">
+                            <div class="col-md-5 thumbnail text-center py-3" style="background-color:#a3a6b1">
+                                <a href="https://green64.github.io/Responsive-Portfolio/" target="_blank">
+                                    <h3 class="port">Responsive Portfolio</h3>
+                                </a>
+                            </div>
+                            <div class="col-md-2 thumbnail text-center">
+                            </div>
+                            <div class="col-md-5 thumbnail text-center py-3" style="background-color:#a3a6b1">
+                                <a href="https://green64.github.io/Bootstrap-Portfolio/" target="_blank">
+                                    <h3 class="port">Boostrap Portfolio</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row m-3">
+                            <div class="col-md-5 thumbnail text-center py-3" style="background-color:#5b4e3f">
+                                <a href="https://green64.github.io/Hangman-Game/" target="_blank">
+                                    <h3 class="port">Hangman Game</h3>
+                                </a>
+                            </div>
+                            <div class="col-md-2 thumbnail text-center">
+                            </div>
+                            <div class="col-md-5 thumbnail text-center py-3" style="background-color:#5b4e3f">
+                                <a href="#">
+                                    <h3 class="port">jQuery Game</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row m-3">
+                            <div class="col-md-5 thumbnail text-center py-3" style="background-color:#c8b994">
+                                <a href="#">
+                                    <h3 class="port">Portfolio 5</h3>
+                                </a>
+                            </div>
+                            <div class="col-md-2 thumbnail text-center">
+                            </div>
+                            <div class="col-md-5 thumbnail text-center py-3" style="background-color:#c8b994">
+                                <a href="#">
+                                    <h3 class="port">Portfolio 6</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--portfolio ends here -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="my-3 p-3 rounded bg-white border border-secondary">
+                        <h3 class="py-3 pr-3 border-bottom">
+                            <span style="font-size:1em; color:#9eb1d3" class="fas fa-hand-point-right" aria-hidden="true"></span> Connect With Me</h3>
+
+                        <a href="https://github.com/green64" target="_blank">
+                            <img src="assets/images/github60.png" class="img-fluid img-thumbnail rounded mt-3" alt="Responsive image My Github profile">
+                        </a>
+                        <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
+                            <img src="assets/images/linked_in60.png" class="img-fluid img-thumbnail rounded ml-2 mt-3" alt="Responsive image My LinkedIn profile">
+                        </a>
+                        <a href="https://stackexchange.com/users/11996404/s-mccall" target="_blank">
+                            <img src="assets/images/stack60.png" class="img-fluid img-thumbnail rounded ml-2 mt-3" alt="Responsive image My Stack Exchange profile">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!--footer -->
-        <div class="footer">
-            <p class="small">Copyright @ 2018 Samantha McCall</p>
-        </div>
-    </div>
-    <script>
-        alert("This portfolio puts the work in WIP. Updates coming soon!")
-    </script>
+
+        <!-- these scripts are required by Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
