@@ -10,7 +10,9 @@ Every project utilizes HTML and CSS. Beyond that, this list is a brief summary o
 
 *[Responsive-Portfolio](https://green64.github.io/Responsive-Portfolio/) -- At first glance, this looks the same as my basic portfolio. But wait! Reduce your window ... look at that responsiveness! Ahhh, the power of media queries. And it never hurts to know how to accomplish your goal in more than one way. 
 
-*[Hangman-Game](https://green64.github.io/Hangman-Game/) -- Now things get interactive ... As a content writer whose always been interested in web development, I've built websites for a long time. I started with first generation text editors, moved on to Dreamweaver, and learned to use handful of CMS tools. Prior to now, when I wanted to use JavaScript I had to find someone else's script that was close to what I wanted. I have so much more to learn. But this project introduced me to building my own scripts. 
+*[Hangman-Game](https://green64.github.io/Hangman-Game/) -- Now things get interactive ... 
+
+As a content writer I was always  interested in web development, and I've built websites for a long time. I started with first generation text editors, moved on to Dreamweaver, and learned to use a handful of CMS tools. Prior to now, when I wanted to use JavaScript I had to find someone else's script that was close to what I wanted. I have so much more to learn. But this project gave me the knowledge to build my own scripts. 
 
 *[Crystals Collector](https://green64.github.io/week-4-game/) -- This guessing game utilizes jQuery to generate random numbers and assign random values to crystal images that the player clicks on to try to win the game. 
 
