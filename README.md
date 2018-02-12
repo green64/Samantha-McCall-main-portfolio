@@ -6,7 +6,7 @@ Every project utilizes HTML and CSS. Beyond that, this list is a brief summary o
 
 *[Basic-Portfolio](https://green64.github.io/Basic-Portfolio/) -- it all started here. We created a basic 3-page site using HTML and CSS. 
 
-*[Bootstrap-Portfolio](https://green64.github.io/Bootstrap-Portfolio/) -- This project represents my first forray into Bootstrap. I love it and use on every project now to take advantage of its easy-to-use nav bar, nesting and responsiveness.
+*[Bootstrap-Portfolio](https://green64.github.io/Bootstrap-Portfolio/) -- This project represents my first forray into Bootstrap. I love it and use it on every project now to take advantage of its easy-to-use nav bar, nesting and responsiveness.
 
 *[Responsive-Portfolio](https://green64.github.io/Responsive-Portfolio/) -- At first glance, this looks the same as my basic portfolio. But wait! Reduce your window ... look at that responsiveness! Ahhh, the power of media queries. And it never hurts to know how to accomplish your goal in more than one way. 
 
