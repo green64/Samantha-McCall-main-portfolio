@@ -16,4 +16,4 @@ As a content writer I was always  interested in web development, and I've built 
 
 *[Crystals Collector](https://green64.github.io/week-4-game/) -- This guessing game utilizes jQuery to generate random numbers and assign random values to crystal images that the player clicks on to try to win the game. 
 
-*[Trivia Game](https://green64.github.io/triviagame/) -- This game incorporates JavaSCript and the jQuery library to create a game with timed trivia questions. 
+*[Trivia Game](https://green64.github.io/TriviaGame/) -- This game incorporates JavaSCript and jQuery to create a game with timed trivia questions. 
