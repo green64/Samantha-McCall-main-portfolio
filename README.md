@@ -18,4 +18,6 @@ As a content writer I was always  interested in web development, and I've built 
 
 *[Crystals Collector](https://green64.github.io/week-4-game/) -- This guessing game utilizes jQuery to generate random numbers and assign random values to crystal images that the player clicks on to try to win the game. 
 
-*[Trivia Game](https://green64.github.io/TriviaGame/) -- This game incorporates JavaSCript and jQuery to create a game with timed trivia questions. 
+*[GIFTastic API](https://green64.github.io/GifTastic-API/) -- Welcome to the world of machine talking to machine! This app starts with preselected buttons that deliver GIPHYs from the GIPHY API. User can also enter their own search term and enjoy hours of GIPHY fun.
+
+*[Firebase Train Schedule](https://green64.github.io/Firebase-Train-Scheduler/) -- This projects introduces backend storage to my coding repertoire via Firebase. FERN programmer? Sounds good to me!
