@@ -5,73 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="assets/css/index_style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <!-- I think this is extra <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-   
-    <style>
-        body,
-        html {
-            height: 100%;
-            background-image: #353a3f;
-        }
-
-        h1 {
-            color: #343a40;
-            font-family: "Quicksand", sans-serif;
-            font-weight: bolder;
-            font-size: 42px;
-        }
-
-        h2 {
-            background-color: #343a40;
-            color: rgb(240, 231, 231);
-            font-family: "Quicksand", sans-serif;
-            font-size: 30px;
-        }
-
-        h3 {
-            font-family: "Raleway", sans-serif;
-            font-weight: bolder;
-            font-size: 21px;
-        }
-
-        p {
-            font-family: "Raleway", sans-serif;
-        }
-
-        a {
-            font-family: "Raleway", sans-serif;
-            font-size: 18px;
-        }
-
-        li {
-            font-family: "Raleway", sans-serif;
-            font-style: italic;
-        }
-
-        .intro-2 {
-            background: url("assets/images/memorial.png");
-            background-size: cover;
-            height: 100%;
-            background-position: no-repeat;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .header {
-            position: relative;
-            margin-top: 22%;
-        }
-
-        .nav-bg {
-            background-color: #343a40;
-        }
-    </style>
     <title>Samantha's Portfolio in Progress</title>
 </head>
 
@@ -80,7 +19,7 @@
     <div class="intro-2">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
-                <h2>Samantha McCall</h2>
+                <h2 class="bar">Samantha McCall</h2>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -94,23 +33,27 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
+        <div class="container-fluid slogan">
             <div mt-3 pt-3 class="row">
                 <div class="col-md-7">
                 </div>
 
-                <div class="col-md-5 header">
-                    <h1>Fresh Perspective</h1>
+                <div class="col-md-4 screen rounded">
+                    <h1 class="head">Fresh Perspective</h1>
                     <div class="row" style="border:1px black">
                         <div class="col-md-12">
-                            <h3> 360&#176; full-stack programming</h3>
+                            <h3 class="sub" > 360&#176; full-stack programming</h3>
                             <p>a work-in-progress portfolio</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-1">      
+                </div>
             </div>
         </div>
     </div>
+
+
 
 
     <!-- these scripts are required by Bootstrap -->
