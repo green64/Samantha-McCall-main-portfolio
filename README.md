@@ -21,3 +21,10 @@ As a content writer I was always  interested in web development, and I've built 
 *[GIFTastic API](https://green64.github.io/GifTastic-API/) -- Welcome to the world of machine talking to machine! This app starts with preselected buttons that deliver GIPHYs from the GIPHY API. User can also enter their own search term and enjoy hours of GIPHY fun.
 
 *[Firebase Train Schedule](https://green64.github.io/Firebase-Train-Scheduler/) -- This projects introduces backend storage to my coding repertoire via Firebase. FERN programmer? Sounds good to me!
+
+*[Liri Node App](https://green64.github.io/Liri-Node-App/) -- This command-line app let you pull title-specific data from several popular APIs.
+
+*[Node MYSQL App](https://green64.github.io/Node-MYSQL-app/) -- Who needs an API when you can query your own database! Welcome to the world of MYSQL.
+
+*[Node Express Friend Finder](https://green64.github.io/Node-Express-Friend-Finder/) -- This assignment adds Express to our developer toolbox, enabling us to create routes, incorporate user data, and find a highly compatible friend.   
+
