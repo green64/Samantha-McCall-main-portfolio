@@ -26,5 +26,9 @@ As a content writer I was always  interested in web development, and I've built 
 
 *[Node MYSQL App](https://green64.github.io/Node-MYSQL-app/) -- Who needs an API when you can query your own database! Welcome to the world of MYSQL.
 
-*[Node Express Friend Finder](https://green64.github.io/Node-Express-Friend-Finder/) -- This assignment adds Express to our developer toolbox, enabling us to create routes, incorporate user data, and find a highly compatible friend.   
+*[Node Express Friend Finder](https://immense-plateau-53936.herokuapp.com/) -- This assignment adds Express to our developer toolbox, enabling us to create routes, incorporate user data, and find a highly compatible friend.   
+
+*[Node Burger App](https://stark-ocean-97912.herokuapp.com/) -- Ready or not, here comes MVC, as in  the model-view-controller framework. These three interconnected parts enable the user to create, read, update and delete data, aka CRUD.  
+
+*[Mindfully -- a group project MVC app](https://secret-brook-82924.herokuapp.com/) -- Unlike the first group project, this is a true full-stack app, complete with a MySQL database, the MVC framework and app testing. 
 
