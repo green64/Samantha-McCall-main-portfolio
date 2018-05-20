@@ -16,7 +16,9 @@ Every project utilizes HTML and CSS. Beyond that, this list is a brief summary o
 
 As a content writer I was always  interested in web development, and I've built websites for a long time. I started with first generation text editors, moved on to Dreamweaver, and learned to use a handful of CMS tools. Prior to now, when I wanted to use JavaScript I had to find someone else's script that was close to what I wanted. I have so much more to learn. But this project gave me the knowledge to build my own scripts. 
 
-*[Crystals Collector](https://green64.github.io/week-4-game/) -- This guessing game utilizes jQuery to generate random numbers and assign random values to crystal images that the player clicks on to try to win the game. 
+*[Crystals Collector](https://green64.github.io/Crystals-Collector-jQuery-game/) -- This guessing game utilizes jQuery to generate random numbers and assign random values to crystal images that the player clicks on to try to win the game. 
+
+*[Game of Thrones Trivia](https://green64.github.io/TriviaGame/) -- Winter is coming, and time's running out! This game uses JavaScript and jQuery to give players a timed trivia test of their GoT knowledge. 
 
 *[GIFTastic API](https://green64.github.io/GifTastic-API/) -- Welcome to the world of machine talking to machine! This app starts with preselected buttons that deliver GIPHYs from the GIPHY API. User can also enter their own search term and enjoy hours of GIPHY fun.
 
