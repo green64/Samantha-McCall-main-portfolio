@@ -43,6 +43,14 @@ body {
     }
 
 /* name div */
+.intro-2 {
+    background: url("assets/images/memorial.png");
+    background-size: cover;
+    height: 100%;
+    background-position: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .name {
     float: left;
@@ -72,6 +80,10 @@ hr.project {
     width: 270px;
     padding: 30px 0px 25px 0px;
     margin-right: 142px;
+}
+
+.menuicons {
+    text-align: right;
 }
 
 /* content for about etc */

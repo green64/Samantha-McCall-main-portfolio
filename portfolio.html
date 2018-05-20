@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css" src="assets/css/portfolio_style.css"></style>
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <!-- I think this is extra <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
     <style>
         body,
@@ -36,13 +36,7 @@
             font-family: "Raleway", sans-serif;
             font-weight: bolder;
             font-size: 21px;
-        }
-
-        h3.port {
-            font-family: "Raleway", sans-serif;
-            font-weight: bolder;
-            font-size: 21px;
-            color: #f8f8d6;
+            color: #343a40;
         }
 
         p {
@@ -91,6 +85,9 @@
             text-decoration: none;
             font-size:110%;
         }
+        .menuicons {
+            margin-left: 80px;
+        }
     </style>
     <title>Samantha's Portfolio in Progress</title>
 </head>
@@ -112,12 +109,65 @@
                     <a class="nav-item nav-link active" href="portfolio.html">portfolio
                         <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-item nav-link" href="contact.html">contact</a>
+                    <a class="nav-item nav-link mr-3" href="contact.html">contact</a>
+                </div>
+                <div>
+                    <a href="mailto:samanthamccallfp18@gmail.com">
+                    <img src="assets/images/email_sm.png" class="img-fluid rounded ml-3" alt="Responsive image Email Samantha McCall"></a>
+                    <a href="assets/images/SAMANTHA_MCCALL_web_developer" target="_blank">
+                    <img src="assets/images/cv_icon_sm.png" class="img-fluid rounded ml-3" alt="Responsive image Samantha McCall's resume"></a>
+                    <a href="https://github.com/green64" target="_blank">
+                    <img src="assets/images/github_sm.png" class="img-fluid rounded ml-3" alt="Responsive image My Github profile"></a>
+                    <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
+                    <img src="assets/images/linked_sm.png" class="img-fluid rounded ml-3" alt="Responsive image My LinkedIn profile"></a>
                 </div>
             </div>
         </nav>
         <div class="container">
             <div class="row">
+                <div class="col-md-12">
+                    <h1>Portfolio</h1>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-4 col-sm-6 rounded">
+                            <div class="card h-100">
+                              <a href="https://green64.github.io/Responsive-Portfolio/" target="_blank"><img class="card-img-top img-fluid" src="assets/images/bootstrap_portfolio.png" alt="Responsive image responsive portfolio"></a>
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  <a href="https://green64.github.io/Responsive-Portfolio/" target="_blank"><h3>Responsive Portfolio</h3></a>
+                                </h4>
+                                <p class="card-text">This average-looking portfolio has a secret power: responsiveness! Media queries ensure 
+                                      this site grows and shrinks depending on the user's viewport.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-sm-6 rounded">
+                                <div class="card h-100">
+                                        <a href="https://green64.github.io/Responsive-Portfolio/" target="_blank"><img class="card-img-top img-fluid" src="assets/images/bootstrap_portfolio.png" alt="Responsive image Bootstrap portfolio"></a>
+                                        <div class="card-body">
+                                    <h4 class="card-title">
+                                      <a href="https://green64.github.io/Bootstrap-Portfolio/" target="_blank"><h3>Bootstrap Portfolio</h3></a>
+                                    </h4>
+                                    <p class="card-text">It may look like the previos project, but this site utilizes Bootstrap. I often use it to 
+                                        take advantage of its easy-to-use nav bar, nesting and responsiveness.</div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card h-100">
+                                      <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
+                                      <div class="card-body">
+                                        <h4 class="card-title">
+                                          <a href="#">Project One</a>
+                                        </h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                                      </div>
+                                    </div>
+                                  </div>
+            </div>
+
+
+            <div class="row">  
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="my-3 p-3 rounded bg-white border border-secondary">
                         <h3 class="main py-3 pr-3 border-bottom">Portfolio</h3>
@@ -221,21 +271,7 @@
                         </div>
                     </div>
                 </div>
-                <!--portfolio ends here -->
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="my-3 p-3 rounded bg-white border border-secondary">
-                        <h3 class="py-3 pr-3 border-bottom">
-                                <span style="font-size:1em; color:#9eb1d3" class="fas fa-hand-point-right" aria-hidden="true"></span> Connect With Me</h3>
-                                <a href="mailto:samanthamccallfp18@gmail.com">
-                                    <img src="assets/images/email.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Email Samantha McCall"></a>
-                                <a href="https://github.com/green64" target="_blank">
-                                    <img src="assets/images/github60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My Github profile"></a>
-                                <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
-                                    <img src="assets/images/linked_in60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My LinkedIn profile"></a>
-                                <a href="https://stackexchange.com/users/11996404/s-mccall" target="_blank">
-                                    <img src="assets/images/stack60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My Stack Exchange profile"></a>
-                       </div>
-                </div>
+
             </div>
         </div>
 
