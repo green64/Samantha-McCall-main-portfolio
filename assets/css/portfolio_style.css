@@ -11,6 +11,14 @@
             font-weight: bolder;
             font-size: 42px;
         }
+        
+        h1.shadow {
+            color: #343a40;
+            font-family: "Quicksand", sans-serif;
+            font-weight: bolder;
+            font-size: 42px;
+            text-shadow: 2px 2px 4px #f8f9dd;
+          }
 
         h2 {
             background-color: #343a40;
@@ -82,3 +90,26 @@
             text-decoration: none;
             font-size: 110%;
         }
+
+        a.blue:hover, a.blue:active {
+            color: #3268a8;
+            text-decoration: none;
+            font-size: 100%;
+            font-weight: bold;
+        }
+          
+          a.blue:link, a.blue:visited {
+            color: #3268a8;
+            text-decoration: none;
+            font-size: 100%;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            font-family: "Quicksand", sans-serif;
+            text-align: center;
+         }

@@ -29,39 +29,147 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="about.html">about</a>
-                    <a class="nav-item nav-link active" href="portfolio.html">portfolio
-                        <span class="sr-only">(current)</span>
+                    <a class="nav-item nav-link" href="portfolio.html">portfolio
                     </a>
+                    <a class="nav-item nav-link active" href="blog.html">blog
+                            <span class="sr-only">(current)</span>
+                        </a>
                     <a class="nav-item nav-link mr-3" href="contact.html">contact</a>
-                </div>
-                <div>
-                    <a href="mailto:samanthamccallfp18@gmail.com">
-                        <img src="assets/images/email_sm.png" class="img-fluid rounded ml-3" alt="Responsive image Email Samantha McCall">
-                    </a>
-                    <a href="assets/images/SAMANTHA_MCCALL_web_developer.pdf" target="_blank">
-                        <img src="assets/images/cv_icon_sm.png" class="img-fluid rounded ml-3" alt="Responsive image Samantha McCall's resume">
-                    </a>
-                    <a href="https://github.com/green64" target="_blank">
-                        <img src="assets/images/github_sm.png" class="img-fluid rounded ml-3" alt="Responsive image My Github profile">
-                    </a>
-                    <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
-                        <img src="assets/images/linked_sm.png" class="img-fluid rounded ml-3" alt="Responsive image My LinkedIn profile">
-                    </a>
                 </div>
             </div>
         </nav>
         <div class="container">
             <div class="row mt-3">
-                <div class="col-md-12">
-                    <h1>Blog</h1>
+                <div class="col-md-12 mb-3">
+                    <h1 class="shadow">Blog</h1>
                 </div>
             </div>
-                <!-- these scripts are required by Bootstrap -->
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-                    crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-                    crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
-                    crossorigin="anonymous"></script>
+            <div class="row">
+
+                <!-- Blog Entries Column -->
+                <div class="col-md-8">
+
+                    <!-- Blog Post -->
+                    <div class="card mb-4 border border-secondary">
+                        <a href="https://grandmadrivesmecrazy.wordpress.com/" target="_blank"><img class="card-img-top" src="assets/images/blog1_image.png" alt="responsive image grandma drives me crazy blog"></a>
+                        <div class="card-body">
+                            <h2 class="title">When Worlds Collide</h2>
+                            <p class="card-text">This isn't my first blog. But it is my first blog as a 
+                                nascent developer. Can I successfully balance my writing and developer sides?
+                                And more importantly, will anyone bother to look at my portfolio <span class="ital">or</span> my blog?
+                            </p>
+                            <a href="posts/worlds_collide.html" class="btn btn-secondary">Read More &rarr;</a>
+                        </div>
+                        <div class="card-footer">
+                            Posted on May 21, 2018 by SM
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <!-- <ul class="pagination justify-content-center mb-4">
+                        <li class="page-item">
+                            <a class="page-link" href="#">&larr; Older</a>
+                        </li>
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Newer &rarr;</a>
+                        </li>
+                    </ul> -->
+
+                </div>
+ <!-- Categories  Widget -->
+ <div class="col-md-4">
+ <div class="p-3 rounded bg-white border border-secondary">
+        <h3 class="py-3 pr-3 border-bottom">
+            <span style="font-size:1em; color:#9eb1d3" class="fas fa-hand-point-right" aria-hidden="true"></span> Connect With Me</h3>
+        <a href="mailto:samanthamccallfp18@gmail.com">
+            <img src="assets/images/email.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Email Samantha McCall">
+        </a>
+        <a href="https://github.com/green64" target="_blank">
+            <img src="assets/images/github60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My Github profile">
+        </a>
+        <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
+            <img src="assets/images/linked_in60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My LinkedIn profile">
+        </a>
+        <a href="assets/images/SAMANTHA_MCCALL_web_developer.pdf" target="_blank">
+            <img src="assets/images/cv_icon_60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image Samantha McCall's resume">
+        </a>
+    </div>
+</div>
+                <!-- Sidebar Widgets Column -->
+         
+             
+
+                         <!-- Search Widget -->
+                         <!-- <div class="card mb-4">
+                                <h5 class="card-header">Search</h5>
+                                <div class="card-body">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary" type="button">Go!</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                    <!-- Side Widget -->
+                    <!-- <div class="card my-4">
+                        <h5 class="card-header">Side Widget</h5>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="#">Web Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">HTML</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Freebies</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="#">JavaScript</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CSS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tutorials</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+            <!-- /.row -->
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="py-5 bg-dark footer">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Samantha McCall 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- these scripts are required by Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
