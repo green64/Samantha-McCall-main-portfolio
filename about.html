@@ -11,76 +11,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <!-- I think this is extra <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-    <style>
-        body,
-        html {
-            height: 100%;
-            background-color: #353a3f;
-        }
-
-        h1 {
-            color: #343a40;
-            font-family: "Quicksand", sans-serif;
-            font-weight: bolder;
-            font-size: 42px;
-        }
-
-        h2 {
-            background-color: #343a40;
-            color: rgb(240, 231, 231);
-            font-family: "Quicksand", sans-serif;
-            font-size: 30px;
-        }
-
-        h3 {
-            font-family: "Raleway", sans-serif;
-            font-weight: bolder;
-            font-size: 21px;
-        }
-
-        p {
-            font-family: "Raleway", sans-serif;
-        }
-
-        a {
-            font-family: "Raleway", sans-serif;
-            font-size: 18px;
-            color: #343a40;
-        }
-
-        li {
-            font-family: "Raleway", sans-serif;
-            font-style: italic;
-        }
-
-        .intro-2 {
-            background: url("assets/images/memorial.png");
-            background-size: cover;
-            height: 100%;
-            background-position: no-repeat;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .header {
-            position: relative;
-            margin-top: 22%;
-        }
-
-        .nav-bg {
-            background-color: #343a40;
-        }
-        hr {
-            width: 50%;
-            padding: 6px;
-            margin-left: 60px;
-        }
-    </style>
-    <title>Samantha's Portfolio in Progress</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/about_style.css">
+    <title>Samantha's About Page</title>
 </head>
 
 <body>
-
     <div class="intro-2">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">
@@ -92,32 +27,41 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="about.html">about<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="about.html">about
+                        <span class="sr-only">(current)</span>
+                    </a>
                     <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
                     <a class="nav-item nav-link" href="contact.html">contact</a>
                 </div>
             </div>
         </nav>
         <div class="container">
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <h1>About Me</h1>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="my-3 p-3 rounded bg-white border border-secondary">
-                        <h3 class="main py-3 pr-3 border-bottom">About Me</h3>
                         <img src="assets/images/sm_headshot.png" class="img-fluid rounded float-left mr-3 mt-3" alt="Responsive image">
-                        <h3 style="color:#9eb1d3"><span style="font-size:1em" class="fas fa-hourglass-half mt-3" aria-hidden="true"></span> May update</h3> 
-                        <p class="section">I didn't realize how much I've learned since January until I started updating my portfolio.
-                        Sure, I've been crazy busy, fallen woefully behind on my Netflix queue and barely came up for breath to see my youngest
-                        daughter graduate with honors from KU. But in terms of what-I-know-now-that-I-didn't-know-then, I've covered some serious ground! 
+                        <h3 style="color:#9eb1d3">
+                            <span style="font-size:1em" class="fas fa-hourglass-half mt-3" aria-hidden="true"></span> May update</h3>
+                        <p class="section">I didn't realize how much I've learned since January until I started updating my portfolio. Sure,
+                            I've been crazy busy, fallen woefully behind on my Netflix queue and barely came up for breath
+                            to see my youngest daughter graduate with honors from KU. But in terms of what-I-know-now-that-I-didn't-know-then,
+                            I've covered some serious ground!
                         </p>
-                        <p class="section">It's easy to forget amongst all the frustration, questions and assignment revamps that I've
-                        learned about everything from jQuery and MVC frameworks to version control and Heroku deployments. I've had help 
-                        from instructors, TAs (thanks Byron and Cameron), tutors &mdash; even my developer son-in-law Rowan has graciously answered questions. 
-                        and patiently helped me debug. I've also learned to Google questions and find my own answers, which I 
-                        know is an essential skill going forward. 
-                         </p>
-                         <p class="section">In some respects, I've only scratched the surface. But looking at my updated portfolio I see
-                        twelve assignments that are indicative of just how much I've learned. For now, I know I have a great foundation, broader coding
-                        skills, and merely a hint of where I'll be as a developer in another five months. Or five years ...
+                        <p class="section">It's easy to forget amongst all the frustration, questions and assignment revamps that I've learned
+                            about everything from jQuery and MVC frameworks to version control and Heroku deployments. I've
+                            had help from instructors, TAs (thanks Byron and Cameron), tutors &mdash; even my developer son-in-law
+                            Rowan has graciously answered questions. and patiently helped me debug. I've also learned to
+                            Google questions and find my own answers, which I know is an essential skill going forward.
+                        </p>
+                        <p class="section">In some respects, I've only scratched the surface. But looking at my updated portfolio I see twelve
+                            assignments that are indicative of just how much I've learned. For now, I know I have a great
+                            foundation, broader coding skills, and merely a hint of where I'll be as a developer in another
+                            five months. Or five years ...
                         </p>
                         <p class="section text-center">~~~~~</p>
                         <p class="section">Fresh perspective. It's important to me because it's the payoff for thinking independently. My cover
@@ -131,28 +75,33 @@
                         <p class="section">I love learning, so I'm very much at home in KU's coding program. With each new skill I acquire,
                             I'm more eager to make the shift from the marketing to the IT side of digital communications.
                             The experience I've already acquired -- content writing, SEO, cross-channel marketing, etc. --
-                            combined with up-to-date experience in full-stack programming should dovetail nicely
-                            in my future coding roles.</p>
+                            combined with up-to-date experience in full-stack programming should dovetail nicely in my future
+                            coding roles.</p>
                         <p class="section">When I'm not researching and writing code, I'm an adoring mom, a cat and all-around animal lover,
                             a die-hard alternative music fan and a semi-successful gardener. I travel whenever I can and
                             am planning my first visit to the great state of Ohio this spring to attend
                             <a href="https://ntlhomecoming.com/" target="_blank">Homecoming</a> in Cincinnati, a festival curated by my favorite band, The National.</p>
-                        <p class="section">In the meantime, I'm learning something new EVERY DAY. And this work-in-progress portfolio will reflect that knowledge acquisition.</p>
+                        <p class="section">In the meantime, I'm learning something new EVERY DAY. And this work-in-progress portfolio will reflect
+                            that knowledge acquisition.</p>
                     </div>
                 </div>
                 <!--portfolio ends here -->
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="my-3 p-3 rounded bg-white border border-secondary">
                         <h3 class="py-3 pr-3 border-bottom">
-                        <span style="font-size:1em; color:#9eb1d3" class="fas fa-hand-point-right" aria-hidden="true"></span> Connect With Me</h3>
+                            <span style="font-size:1em; color:#9eb1d3" class="fas fa-hand-point-right" aria-hidden="true"></span> Connect With Me</h3>
                         <a href="mailto:samanthamccallfp18@gmail.com">
-                            <img src="assets/images/email.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Email Samantha McCall"></a>
+                            <img src="assets/images/email.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Email Samantha McCall">
+                        </a>
                         <a href="https://github.com/green64" target="_blank">
-                            <img src="assets/images/github60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My Github profile"></a>
+                            <img src="assets/images/github60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My Github profile">
+                        </a>
                         <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
-                            <img src="assets/images/linked_in60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My LinkedIn profile"></a>
+                            <img src="assets/images/linked_in60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image My LinkedIn profile">
+                        </a>
                         <a href="assets/images/SAMANTHA_MCCALL_web_developer.pdf" target="_blank">
-                            <img src="assets/images/cv_icon_60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image Samantha McCall's resume"></a>
+                            <img src="assets/images/cv_icon_60.png" class="img-fluid img-thumbnail rounded ml-1 mt-3" alt="Responsive image Samantha McCall's resume">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -161,11 +110,11 @@
 
 
         <!-- these scripts are required by Bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 </body>
 

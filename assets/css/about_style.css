@@ -1,5 +1,4 @@
-<style>
-        body,
+body,
         html {
             height: 100%;
             background-color: #353a3f;
@@ -19,17 +18,10 @@
             font-size: 30px;
         }
 
-        h3.portlink {
+        h3 {
             font-family: "Raleway", sans-serif;
             font-weight: bolder;
             font-size: 21px;
-            color: #7491b4;
-        }
-        h5.portlink {
-            font-family: "Raleway", sans-serif;
-            font-weight: bolder;
-            font-size: 18px;
-            color: #7491b4;
         }
 
         p {
@@ -39,7 +31,7 @@
         a {
             font-family: "Raleway", sans-serif;
             font-size: 18px;
-            color: #7491b4;
+            color: #343a40;
         }
 
         li {
@@ -64,21 +56,8 @@
         .nav-bg {
             background-color: #343a40;
         }
-
-        a:link {
-            color: #f8f9dd;
-            text-decoration: none;
-            font-size: 100%;
-        }
-
-        a:visited {
-            color: #f8f9dd;
-            text-decoration: none;
-            font-size: 100%;
-        }
-
-        a:hover {
-            color: #867852;
-            text-decoration: none;
-            font-size: 110%;
+        hr {
+            width: 50%;
+            padding: 6px;
+            margin-left: 60px;
         }

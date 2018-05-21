@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+  background-color: #353a3f;
+}
+
+h1 {
+  color: #343a40;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 42px;
+}
+
+h2 {
+  background-color: #343a40;
+  color: rgb(240, 231, 231);
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+
+h3.portlink {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 21px;
+  color: #1b569e;
+}
+h5.portlink {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #7491b4;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #7491b4;
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+}
+
+.intro-2 {
+  background: url("../images/memorial.png");
+  background-size: cover;
+  height: 100%;
+  background-position: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  position: relative;
+  margin-top: 22%;
+}
+
+.nav-bg {
+  background-color: #343a40;
+}
+
+a:link {
+  color: #f8f9dd;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+a:visited {
+  color: #f8f9dd;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+a:hover {
+  color: #867852;
+  text-decoration: none;
+  font-size: 110%;
+}
