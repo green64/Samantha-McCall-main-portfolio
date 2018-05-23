@@ -68,7 +68,7 @@ h3.portlink {
     }
 h3.content {
     font-family: "Raleway", sans-serif;
-    background-color: #f1eaea;
+    background-color: #e9e3d4;
     font-weight: bolder;
     font-size: 21px;
     color: #1b569e;
@@ -79,6 +79,23 @@ h5.portlink {
     font-weight: bolder;
     font-size: 18px;
     color: #7491b4;
+    }
+/* used on content page for cat pics */
+img.circle {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-right: 10px;    
+    padding-bottom: 10px;
+    }
+img.square {
+    float: left;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-right: 10px;    
+    padding-bottom: 10px;
     }
 p {
     font-family: "Raleway", sans-serif;
@@ -106,7 +123,13 @@ li {
     font-family: "Raleway", sans-serif;
     font-style: italic;
     }
-
+li.content {
+    font-family: "Raleway", sans-serif;
+    font-style: oblique;
+    margin-left: 5px;
+    list-style-position: inside;
+    list-style-type: square;
+    }
 .border {
     top: 4px solid black;
     bottom: 4px solid black;
