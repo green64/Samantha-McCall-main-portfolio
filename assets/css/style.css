@@ -66,6 +66,14 @@ h3.portlink {
     font-size: 21px;
     color: #1b569e;
     }
+h3.content {
+    font-family: "Raleway", sans-serif;
+    background-color: #f1eaea;
+    font-weight: bolder;
+    font-size: 21px;
+    color: #1b569e;
+    padding: 8px;
+    }
 h5.portlink {
     font-family: "Raleway", sans-serif;
     font-weight: bolder;
