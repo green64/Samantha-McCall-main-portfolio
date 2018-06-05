@@ -34,3 +34,8 @@ As a content writer I was always  interested in web development, and I've built 
 
 * [Mindfully -- a group project MVC app](https://secret-brook-82924.herokuapp.com/) -- Unlike the first group project, this is a true full-stack app, complete with a MySQL database, the MVC framework and app testing. 
 
+* [MongoDB Scraper App](https://immense-depths-69377.herokuapp.com/) -- This full-stack MongoDB-powered app lets the user scrape guardian.co.uk for the latest stories, save or delete their choices, and attach a reminder note.
+
+* [React Click App](https://green64.github.io/React-Click-App/) -- Test your memory with this app created with React.
+
+
