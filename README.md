@@ -1,8 +1,8 @@
 # Primary Portfolio
 
-[Samantha McCall's Portfolio](www.samanthamccallfp18.com)
+[Samantha McCall's Portfolio](http://www.samanthamccallfp18.com)
 
-Welcome to my boot camp portfolio. This work-in-progress site includes links to all of my projects. Alternatively, you'll find those links by visiting my main site [Portfolio](https://green64.github.io/portfolio.html).
+Welcome to my boot camp portfolio. This work-in-progress site includes links to all of my projects. Alternatively, you'll find those links by visiting my main site [Portfolio](http://www.samanthamccallfp18.com).
 
 Every project utilizes HTML and CSS. Beyond that, this list is a brief summary of what you'll find in the various projects. They're listed as they were created, so you'll definitely see the evolution of my skills as you move down the list. For more information, check out the READme for any specific project. 
 
