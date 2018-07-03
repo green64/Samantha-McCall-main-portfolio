@@ -15,34 +15,52 @@
     <title>Samantha's Portfolio in Progress</title>
 </head>
 
-<body>
-    <div class="intro-2">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">
-                <h2>Samantha McCall</h2>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="about.html">about</a>
-                    <a class="nav-item nav-link active" href="portfolio.html">portfolio<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="blog.html">blog</a>
-                    <a class="nav-item nav-link" href="content.html">content</a>
+<body class="Site">
+    <main class="Site-content">
+        <div class="intro-2">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand brand" href="./index.html">
+                    <h2 class="brand">Samantha McCall</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">about</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./portfolio.html">portfolio
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./content.html">content</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                blog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./blog.html">new posts</a>
+                                <a class="dropdown-item" href="posts/blog_archive.html">archive</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </nav>
-        <div class="container">
-            <div class="row mt-3">
-                <div class="col-md-12">
-                    <h1 class="shadow">Portfolio</h1>
+            </nav>
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <h1 class="shadow">Portfolio</h1>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- ============= ROW 1 =============== -->
-            <div class="row my-3">
+
+                <!-- ============= ROW 1 =============== -->
+                <div class="row my-3">
                     <div class="col-lg-4 col-sm-4 rounded my-1">
                         <div class="card h-100">
                             <a href="https://immense-depths-69377.herokuapp.com/" target="_blank">
@@ -52,8 +70,8 @@
                                 <a href="https://immense-depths-69377.herokuapp.com/" target="_blank">
                                     <h3 class="portlink">Mongo Scraper App</h3>
                                 </a>
-                                <p>Document-oriented databases away! Cheerio and Mongoose power this news scraper 
-                                    that lets users view, save, and delete scraped articles.</p>
+                                <p>Document-oriented databases away! Cheerio and Mongoose power this news scraper that lets
+                                    users view, save, and delete scraped articles.</p>
                                 <a href="https://github.com/green64/news-scraper" target="_blank">
                                     <h5 class="portlink">
                                         <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
@@ -70,8 +88,8 @@
                                 <a href="https://nameless-garden-27229.herokuapp.com/" target="_blank">
                                     <h3 class="portlink">Click-a-Pokémon React App</h3>
                                 </a>
-                                <p>A memory game with a digital spin! With help from JSX and Yarn, React handles the UI,
-                                    manages component states, and responds to user interaction.
+                                <p>A memory game with a digital spin! With help from JSX and Yarn, React handles the UI, manages
+                                    component states, and responds to user interaction.
                                 </p>
                                 <a href="https://github.com/green64/React-Click-App" target="_blank">
                                     <h5 class="portlink">
@@ -82,14 +100,16 @@
                     </div>
                     <div class="col-lg-4 col-sm-4 rounded my-1">
                         <div class="card h-100">
-                            <a href="#" target="_blank">
-                                <img class="card-img-top img-fluid rounded" src="assets/images/coming_soon_portfolio.png" alt="Responsive image Mindfully app">
+                            <a href="https://bee-z-street.herokuapp.com/" target="_blank">
+                                <img class="card-img-top img-fluid rounded" src="assets/images/bee_z_street_portfolio.png" alt="Responsive image Mindfully app">
                             </a>
                             <div class="card-body">
-                                <a href="#" target="_blank">
+                                <a href="https://bee-z-street.herokuapp.com/" target="_blank">
                                     <h3 class="portlink">Bee-Z Street</h3>
                                 </a>
-                                <p>This MERN app showcasing everything I've learned in my coding program is coming soon!</p>
+                                <p>This full-stack WIP website features a React front end. Users can search the Mongo database
+                                    or create a a drag-and-drop virtual garden of bee-friendly plants.
+                                </p>
                                 <a href="https://github.com/SuiteMel/Bee-Z_Street" target="_blank">
                                     <h5 class="portlink">
                                         <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
@@ -98,63 +118,63 @@
                         </div>
                     </div>
                 </div>
-            <!-- ============= ROW 1 =============== -->
-            <div class="row my-3">
-                <div class="col-lg-4 col-sm-4 rounded my-1">
-                    <div class="card h-100">
-                        <a href="https://immense-plateau-53936.herokuapp.com/" target="_blank">
-                            <img class="card-img-top img-fluid rounded border-bottom" src="assets/images/friend_portfolio.png" alt="Responsive image Friend Finder app">
-                        </a>
-                        <div class="card-body">
+                <!-- ============= ROW 1 =============== -->
+                <div class="row my-3">
+                    <div class="col-lg-4 col-sm-4 rounded my-1">
+                        <div class="card h-100">
                             <a href="https://immense-plateau-53936.herokuapp.com/" target="_blank">
-                                <h3 class="portlink">Friend Finder App</h3>
+                                <img class="card-img-top img-fluid rounded border-bottom" src="assets/images/friend_portfolio.png" alt="Responsive image Friend Finder app">
                             </a>
-                            <p>Friend Finder added Express to my dev toolbox. I created routes, incorporated user data, and
-                                stored compatible felines friends in the database.</p>
-                            <a href="https://github.com/green64/Node-Express-Friend-Finder" target="_blank">
-                                <h5 class="portlink">
-                                    <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
-                            </a>
+                            <div class="card-body">
+                                <a href="https://immense-plateau-53936.herokuapp.com/" target="_blank">
+                                    <h3 class="portlink">Friend Finder App</h3>
+                                </a>
+                                <p>Friend Finder added Express to my dev toolbox. I created routes, incorporated user data,
+                                    and stored compatible felines friends in the database.</p>
+                                <a href="https://github.com/green64/Node-Express-Friend-Finder" target="_blank">
+                                    <h5 class="portlink">
+                                        <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-4 rounded my-1">
-                    <div class="card h-100">
-                        <a href="https://stark-ocean-97912.herokuapp.com/burgers" target="_blank">
-                            <img class="card-img-top img-fluid rounded" src="assets/images/burger_portfolio.png" alt="Responsive image Node Burger app">
-                        </a>
-                        <div class="card-body">
+                    <div class="col-lg-4 col-sm-4 rounded my-1">
+                        <div class="card h-100">
                             <a href="https://stark-ocean-97912.herokuapp.com/burgers" target="_blank">
-                                <h3 class="portlink">Node Burger App</h3>
+                                <img class="card-img-top img-fluid rounded" src="assets/images/burger_portfolio.png" alt="Responsive image Node Burger app">
                             </a>
-                            <p>Ready or not, here comes the model-view-controller (MVC) framework. Node Burger enables users 
-                                to create, read, and update data (the CRU of CRUD).</p>
-                            <a href="https://github.com/green64/node-burger" target="_blank">
-                                <h5 class="portlink">
-                                    <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
-                            </a>
+                            <div class="card-body">
+                                <a href="https://stark-ocean-97912.herokuapp.com/burgers" target="_blank">
+                                    <h3 class="portlink">Node Burger App</h3>
+                                </a>
+                                <p>Ready or not, here comes the model-view-controller (MVC) framework. Node Burger enables users
+                                    to create, read, and update data (the CRU of CRUD).</p>
+                                <a href="https://github.com/green64/node-burger" target="_blank">
+                                    <h5 class="portlink">
+                                        <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-4 rounded my-1">
-                    <div class="card h-100">
-                        <a href="https://secret-brook-82924.herokuapp.com/" target="_blank">
-                            <img class="card-img-top img-fluid rounded" src="assets/images/mindfully_portfolio.png" alt="Responsive image Mindfully app">
-                        </a>
-                        <div class="card-body">
+                    <div class="col-lg-4 col-sm-4 rounded my-1">
+                        <div class="card h-100">
                             <a href="https://secret-brook-82924.herokuapp.com/" target="_blank">
-                                <h3 class="portlink">Mindfully App</h3>
+                                <img class="card-img-top img-fluid rounded" src="assets/images/mindfully_portfolio.png" alt="Responsive image Mindfully app">
                             </a>
-                            <p>This full-stack, MVC app and its MySQL database lets users write and store letters. Mindfully's
-                                functionality is tested with Mocha, Chai, and Nightmare.</p>
-                            <a href="https://github.com/green64/Mindfully-app" target="_blank">
-                                <h5 class="portlink">
-                                    <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
-                            </a>
+                            <div class="card-body">
+                                <a href="https://secret-brook-82924.herokuapp.com/" target="_blank">
+                                    <h3 class="portlink">Mindfully App</h3>
+                                </a>
+                                <p>This full-stack, MVC app and its MySQL database lets users write and store letters. Mindfully's
+                                    functionality is tested with Mocha, Chai, and Nightmare.</p>
+                                <a href="https://github.com/green64/Mindfully-app" target="_blank">
+                                    <h5 class="portlink">
+                                        <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
                 <!-- ============= ROW 2 =============== -->
                 <div class="row my-3">
                     <div class="col-lg-4 col-sm-4 rounded my-1">
@@ -184,8 +204,8 @@
                                 <a href="https://green64.github.io/Liri-Node-App/" target="_blank">
                                     <h3 class="portlink">LIRI App</h3>
                                 </a>
-                                <p>LIRI is a command-line app that uses AJAX and JSON to pull title-specific data from the Twitter, Spotify
-                                    and IMDB APIs.</p>
+                                <p>LIRI is a command-line app that uses AJAX and JSON to pull title-specific data from the Twitter,
+                                    Spotify and IMDB APIs.</p>
                                 <a href="https://github.com/green64/Liri-Node-App" target="_blank">
                                     <h5 class="portlink">
                                         <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
@@ -207,7 +227,8 @@
                                     <h3 class="portlink">Bamazon App</h3>
                                 </a>
                                 <p>Who needs APIs when you can query your own database? This command-line app marked my MySQL
-                                    introduction.</p>
+                                    introduction.
+                                </p>
                                 <a href="https://github.com/green64/Node-MYSQL-app" target="_blank">
                                     <h5 class="portlink">
                                         <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
@@ -288,8 +309,8 @@
                                 <a href="https://green64.github.io/Responsive-Portfolio/" target="_blank">
                                     <h3 class="portlink">Responsive Portfolio</h3>
                                 </a>
-                                <p>This portfolio adds a secret ingredient to HTML and CSS: responsiveness! Media queries ensure the
-                                    site grows and shrinks depending on the user's viewport.</p>
+                                <p>This portfolio adds a secret ingredient to HTML and CSS: responsiveness! Media queries ensure
+                                    the site grows and shrinks depending on the user's viewport.</p>
                                 <a href="https://github.com/green64/Responsive-Portfolio" target="_blank">
                                     <h5 class="portlink">
                                         <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
@@ -306,8 +327,8 @@
                                 <a href="https://green64.github.io/Bootstrap-Portfolio/" target="_blank">
                                     <h3 class="portlink">Bootstrap Portfolio</h3>
                                 </a>
-                                <p>It looks like the previous project, but this site uses Bootstrap. I often use it to
-                                    take advantage of its easy-to-use nav bar, nesting and responsiveness.</p>
+                                <p>It looks like the previous project, but this site uses Bootstrap. I often use it to take
+                                    advantage of its easy-to-use nav bar, nesting and responsiveness.</p>
                                 <a href="https://github.com/green64/Bootstrap-Portfolio" target="_blank">
                                     <h5 class="portlink">
                                         <span style="font-size:1em; color:#9eb1d3" class="fab fa-github" aria-hidden="true"></span> Github repo</h5>
@@ -318,7 +339,7 @@
                     <div class="col-lg-4 col-sm-4 rounded my-1">
                         <div class="card h-100">
                             <a href="https://green64.github.io/Hangman-Game/" target="_blank">
-                                <img class="card-img-top img-fluid rounded" src="assets/images/hangman_portfolio.png" alt="Responsive image Hangman game">
+                                <img class="card-img-top img-fluid rounded border-bottom" src="assets/images/hangman_portfolio.png" alt="Responsive image Hangman game">
                             </a>
                             <div class="card-body">
                                 <a href="https://green64.github.io/Hangman-Game/" target="_blank">
@@ -335,40 +356,45 @@
                     </div>
                 </div>
                 <!-- ============= ROW 5 =============== -->
-            </div>
-            <div class=" my-4">
-                <h5 class="card-header"></h5>
-                <div class="card-body">
-                </div>
-            </div>
-            <!-- ============= footer =============== -->
-            <footer class="py-4 bg-dark footer">
-                    <div class="container">
-                        <p class="m-0 text-center text-white">Copyright &copy; Samantha McCall 2018</p>
-                         <span class="fa-stack fa-2x">
-                            <a href="mailto:samanthamccallfp18@gmail.com"><i class="fas fa-at"></i></a>
-                         </span>
-                         <span class="fa-stack fa-2x">
-                            <a href="https://twitter.com/fpkc18" target="_blank"><i class="fab fa-twitter"></i></a>
-                          </span>
-                          <span class="fa-stack fa-2x">
-                            <a href="assets/images/SAMANTHA_MCCALL_web_developer.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
-                          </span>
-                          <span class="fa-stack fa-2x">
-                            <a href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                          </span>
-                          <span class="fa-stack fa-2x">
-                            <a href="https://github.com/green64" target="_blank"><i class="fab fa-github"></i></a>
-                          </span>
-                    </div>
-                </footer>
-            <!-- these scripts are required by Bootstrap -->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-                crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
-                crossorigin="anonymous"></script>
+    </main>
+    <!-- footer -->
+    <footer class="py-4 bg-dark footer">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Samantha McCall 2018</p>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="mailto:samanthamccallfp18@gmail.com">
+                    <i class="fas fa-at"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="https://twitter.com/fpkc18" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="assets/images/SAMANTHA_MCCALL_web_developer.pdf" target="_blank">
+                    <i class="fas fa-file-alt"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="https://github.com/green64" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+        </div>
+    </footer>
+    <!-- these scripts are required by Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

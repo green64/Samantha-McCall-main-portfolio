@@ -4,15 +4,13 @@
 
 body, html {
     height: 100%;
-    background-color: #353a3f;
+    /* background-color: #353a3f; */
+    margin:0;
+    font-family:Arial;
     }
-/* used in blog tables to override boostrap*/
-.nav-bg{
-    background-color: white;
-    }
-.bg{
-    background-color: white;
-    }
+.blog-bg {
+    background-color: white; 
+}
 h1 {
     color: #343a40;
     font-family: "Quicksand", sans-serif;
@@ -33,11 +31,15 @@ h1.shadow {
     text-shadow: 2px 2px 4px #f8f9dd;
     }
 h2 {
-    background-color: #343a40;
-    color: rgb(240, 231, 231);
+    color: #f8f9dd;
     font-family: "Quicksand", sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     }
+a.brand {
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    color: #f8f9dd;
+    } 
 h2.title {
     background-color: white;
     color: #343a40;
@@ -106,7 +108,7 @@ p.first {
     color: #353a3f;
     font-weight: bold;
     }
-a {
+/* a {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     }
@@ -114,7 +116,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     color: #343a40;
-    }
+    } */
 span.ital {
     font-family: "Raleway", sans-serif;
     font-style: italic;
@@ -158,24 +160,10 @@ li.content {
 .screen {
     background-color: rgba(255,255,255,0.3);
     }
-.nav-bg {
+/* .nav-bg {
     background-color: #343a40;
-    }
-a:link {
-    color: #f8f9dd;
-    textdecoration: none;
-    font-size: 100%;
-    } 
-a:visited {
-    color: #f8f9dd;
-    text-decoration: none;
-    font-size: 100%;
-    }
-a:hover {
-    color: #867852;
-    text-decoration: none;
-    font-size: 100%;
-    }
+    } */
+
 /* text links other than nav bar */
 a.blue:hover, a.blue:active {
     color: #3268a8;
@@ -193,73 +181,38 @@ hr {
     padding: 6px;
     margin-left: 60px;
     }
+
+/* footer styles */
+/* site and and site-content are sticky footer enabling */
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+      
+.Site-content {
+    flex: 1;
+}
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: #f8f9dd;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     }
-
-/* @media (min-width: map-get($grid-breakpoints, sm)){
-    h1.head {font-size: 40px;}
-    h3.sub {font-size: 28px;}
-    .slogan {
-    position: relative;
-    background-color: rgba(255,255,255,0.8);
-    top: 0%;
-    left: 0%;
-    width: 28em;
-    height: 150px;
-    padding: 10px;}
-} */
-
-
-/* @media (min-width: map-get($grid-breakpoints, md)){
-  .something {
-    padding: 20px;
-   }
-} */
-
-  /* around 992 px */
-    /* @media only screen and (min-width: 992px) {
-        h1.head {font-size: 40px;}
-        h3.sub {font-size: 28px;}
-        .slogan {
-        position: relative;
-        background-color: rgba(255,255,255,0.3);
-        top: 5%;
-        left: 3%;
-        width: 28em;
-        height: 150px;
-        padding: 10px; 
-        } 
-}  */
-     /* around 768 px*/
-     /* @media only screen and (min-width: 768px) {
-        h1.head {font-size: 40px;}
-        h3.sub {font-size: 28px;}
-        .slogan {
-        position: relative;
-        background-color: rgba(255,255,255,0.3);
-        top: 5%;
-        left: 3%;
-        width: 28em;
-        height: 150px;
-        padding: 10px;}
-} */
-    /* around 544 px*/
-    /* @media only screen and (min-width: 544px) { 
-        h1.head {font-size: 40px;}
-        h3.sub {font-size: 28px;}
-        .slogan {
-        position: relative;
-        background-color: rgba(255,255,255,0.3);
-        top: 5%;
-        left: 3%;
-        width: 28em;
-        height: 150px;
-        padding: 10px;}
-    } */
+a.footer:link {
+    color: #f8f9dd;
+    textdecoration: none;
+    font-size: 100%;
+} 
+a.footer:visited {
+    color: #f8f9dd;
+    text-decoration: none;
+    font-size: 100%;
+}
+a.footer:hover {
+    color: #867852;
+    text-decoration: none;
+    font-size: 100%;
+}
