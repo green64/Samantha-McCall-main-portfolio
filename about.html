@@ -2,6 +2,18 @@
 <html lang="en" class="full-height">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123872365-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123872365-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,7 +23,8 @@
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <!-- I think this is extra <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Samantha's About Page</title>
 </head>
@@ -47,7 +60,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="./blog.html">new posts</a>
-                                <a class="dropdown-item" href="posts/blog_archive.html">archive</a>
+                                <a class="dropdown-item" href="posts/archive_worlds.html">archive</a>
                             </div>
                         </li>
                     </ul>
@@ -65,42 +78,39 @@
                             <img src="assets/images/sm_headshot.png" class="img-fluid rounded float-left mr-3 mt-3" alt="Responsive image">
                             <h3 class="portlink">
                                 <span style="font-size:1em" class="fas fa-binoculars mt-3" aria-hidden="true"></span> Why Fresh Perspective?</h3>
-                            <p class="section">Maybe you noticed my blog name or even the "fp18" in my URL ... Fresh perspective is important
-                                to me because it's the payoff for thinking independently. My cover picture is awesome, isn't
-                                it? Some far-off place full of intrigue and stories ...</p>
+                            <p class="section">Maybe you noticed my blog name or even the "fp18" in my URL ... To me, fresh perspective is the
+                                reward for thinking independently.</p>
+                            <p class="section">Take my cover picture. It's awesome, isn't it? Some far-off place full of intrigue and stories
+                                ...</p>
                             <p class="section">
                                 Actually, it's in Kansas City! It's a well-known landmark &mdash; the WWI Memorial right across from Union Station. But thanks
                                 to fresh perspective, it could easily be the portal to another dimension.</p>
-                            <p class="section"> As a redheaded, left-handed Scorpio, I was destined to do things differently. I started my career
-                                in print publishing, but once I learned HTML, the immediate gratification of making a correction
-                                and seeing it online in seconds resonated with me.</p>
-                            <p class="section">I love learning, so I'm very much at home in KU's coding program. With each new skill I acquire,
-                                I'm more eager to make the shift from the marketing to the IT side of digital communications.
-                                The experience I've already acquired &mdash; content writing, SEO, cross-channel marketing,
-                                etc. &mdash; combined with up-to-date experience in full-stack programming should dovetail
-                                nicely in my future coding roles.</p>
-                            <p class="section">When I'm not researching and writing code, I'm an adoring mom, a cat and all-around animal lover,
-                                a die-hard alternative music fan and a semi-successful gardener. I travel whenever I can
-                                and recently visited the beautiful city of Cincinnati, Ohio, for
-                                <a class="blue" href="https://ntlhomecoming.com/" target="_blank">Homecoming</a>, a festival curated by my favorite band, The National.</p>
-                            <p class="section">In the meantime, I'm learning something new EVERY DAY. This work-in-progress portfolio reflects
-                                that knowledge acquisition.</p>
-                            <p class="section text-center">~~~~~</p>
-                            <h3 class="portlink">
-                                <span style="font-size:1em" class="fas fa-stopwatch" aria-hidden="true"></span> June update</h3>
-                            <p class="section">The days are literally flying by now! We have 10 class periods left, an enormous project to complete,
-                                and a veritable repo full of pitfalls to hopefully overcome.
-                            </p>
-                            <p class="section">Of course, the learning won't stop when class ends July 12. I'm excited to be among the first
-                                class of
-                                <a class="blue" href="http://kcwomenintech.org/" target="_blank">KCWiT's new mentoring program</a>, which starts later this month. Then there are those two
-                                million bookmarks on every topic from Visual Studio shortcuts to React projects I've saved
-                                ... And hopefully, a new job where my web dev skills can help meet the need for clean, responsive
-                                websites that deliver amazing user experiences.</p>
-                            <p class="section">It's not even officially summer yet, but when it comes to pursuing new development challenges
-                                it's shaping up to be a hot one!</p>
+                            <p class="section"> As a redheaded left-hander, I was destined to do things differently. I started my career in print
+                                publishing, but once I learned HTML, the immediate gratification of making a correction and
+                                seeing it online in seconds resonated with me.</p>
+                            <p class="section">When I'm not researching and writing code, I'm:
+                                <ul>
+                                    <li>an adoring mom</li>
+                                    <li>a cat and all-around animal lover</li>
+                                    <li>a diehard alternative music fan</li>
+                                    <li>and a semi-successful gardener</li>
+                                </ul>
+                                <p class="section">I travel whenever I can and recently visited the beautiful city of Cincinnati, Ohio, for
+                                    <a class="blue" href="https://ntlhomecoming.com/" target="_blank">Homecoming</a>, a festival curated by my favorite band, The National.</p>
+                                <p class="section text-center">~~~~~</p>
+                                <h3 class="portlink">
+                                    <span style="font-size:1em" class="fas fa-school" aria-hidden="true"></span> August update</h3>
+                                <p class="section">Got the certificate. Started the mentorship. Yadda, yadda, yadda.</p>
+                                <p class="section">I'm officially in Job Search Mode. Unlike previous searches, this time I'm trying to meld
+                                    prior experience with recent training to find a fulfilling hybrid role.</p>
+                                <p class="section">I'm also readling "Don't Make Me Think" by Steve Krug, sort of the usability bible according
+                                    to the
+                                    <a class="blue" href=" https://uxdesign.cc/" target="_blank">UX Collective</a>, which I've recently discovered. I'm learning a lot from the collective
+                                    and the book, which includes among its caveats, "Omit Needless Words." So clearly I don't
+                                    need to say more!
+                                </p>
 
-                            <!-- Comments Form -->
+                                <!-- Comments Form -->
                         </div>
                     </div>
                     <!--portfolio ends here -->
@@ -109,32 +119,32 @@
                             <h3 class="py-3 pr-3 border-bottom portlink">
                                 <span style="font-size:1em" class="fas fa-hand-point-right" aria-hidden="true"></span> Latest Blogs</h3>
                             <!--blog entry -->
-                            <img class="img-fluid rounded border border-secondary mb-2" src="assets/images/milestone_blog_post.png" alt="responsive image blog header">
+                            <img class="img-fluid rounded border border-secondary mb-2" src="assets/images/fizz_buzz_blog_post.jpg" alt="responsive image blog header">
                             <p class="section">
-                                My coding program only lasted six months. But my love for coding &mdash; and coding experience &mdash; spans decades.
+                                It's OK to impart your wisdom upon new developers. Just do it with R-E-S-P-E-C-T. 
                             </p>
-                            <a href="posts/milestones.html">
+                            <a href="posts/whos_fizz_buzzin_who.html">
                                 <button class="btn btn-sm btn-secondary mb-4">&rarr; Read more</button>
                             </a>
                             <!--blog entry -->
-                            <img class="img-fluid rounded border border-secondary mb-2" src="assets/images/breakthrough_blog_post.jpg" alt="responsive image blog header">
+                            <img class="img-fluid rounded border border-secondary mb-2" src="assets/images/book_blog_post.jpg" alt="responsive image blog header">
                             <p class="section">
-                                After hours of eye-crossing debugging, when you have a major coding breakthrough you just gotta share.
+                                Completing my coding program was the preface; now my real developer story begins.
                             </p>
-                            <a href="posts/breakthroughs.html">
+                            <a href="posts/book.html">
                                 <button class="btn btn-sm btn-secondary mb-4">&rarr; Read more</button>
                             </a>
                             <!--blog entry -->
-                            <img class="img-fluid rounded mb-2" src="assets/images/hope_blog_post.png" alt="responsive image blog header">
-                            <p class="section">
-                                When I failed my first developer interview, my favorite quote became my official professional mantra.</p>
-                            <a href="posts/hope_in_honest_error.html">
+                            <img class="img-fluid rounded mb-2" src="assets/images/bamboo_tree_blog_post.png" alt="responsive image blog header">
+                            <p class="section">Lessons learned from life, death, and the Chinese Bamboo Tree.
+                            </p>
+                            <a href="posts/bamboo_tree.html">
                                 <button class="btn btn-sm btn-secondary mb-4">&rarr; Read more</button>
                             </a>
                             <!--blog entry -->
                             <p class="section">
                                 Want more Fresh Perspective? Visit my blog archive!</p>
-                            <a href="posts/blog_archive.html">
+                            <a href="posts/archive_worlds.html">
                                 <button class="btn btn-sm btn-info mb-4">&rarr; Read more</button>
                             </a>
                         </div>
@@ -182,4 +192,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
