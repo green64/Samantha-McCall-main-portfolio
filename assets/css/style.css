@@ -190,7 +190,18 @@ hr {
     padding: 6px;
     margin-left: 60px;
     }
-
+/*dropdown styles */
+select {
+    padding: 10px;
+    }     
+option.value {
+    font-size: 10px;
+    color: #1b569e;
+    }
+optgroup.label {
+    font-size: 10px;
+    color: #426a9b;
+}
 /* footer styles */
 /* site and and site-content are sticky footer enabling */
 .Site {
