@@ -34,14 +34,21 @@
                 <a class="navbar-brand brand" href="./index.html">
                     <h2 class="brand">Samantha McCall</h2>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">about</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./about.html" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                about
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./about.html">about</a>
+                                <a class="dropdown-item" href="./timeline.html">timeline</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./portfolio.html">portfolio</a>
@@ -50,8 +57,8 @@
                             <a class="nav-link" href="./content.html">content</a>
                         </li>
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="./blog.html" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 blog
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -75,42 +82,49 @@
                     <div class="col-md-8">
                         <!-- Blog Post 12 -->
                         <div class="card mb-4 border border-secondary">
-                                <img class="card-img-top border-bottom border-secondary" src="assets/images/user_experience_blog_home.jpg" alt="responsive image balance blog">
-                                <div class="card-body">
-                                    <h2 class="title">Want Great UX? Use Your Words</h2>
-                                    <p class="card-text">
-                                        60 years ago, Volkswagon's "Think Small" campaign changed the copywriter-designer work model.
-                                        Today, digital companies are rediscovering the value of creative synergy. 
-                                    </p>
-                                    <a href="posts/want_great_ux_use_your_words.html" class="btn btn-secondary">Read More &rarr;</a>
-                                </div>
-                                <div class="card-footer">
-                                    Posted September 10, 2018 by SM
-                                </div>
+                            <img class="card-img-top border-bottom border-secondary" src="assets/images/user_experience_blog_home.jpg"
+                                alt="responsive image balance blog">
+                            <div class="card-body">
+                                <h2 class="title">Want Great UX? Use Your Words</h2>
+                                <p class="card-text">
+                                    60 years ago, Volkswagon's "Think Small" campaign changed the copywriter-designer
+                                    work model.
+                                    Today, digital companies are rediscovering the value of creative synergy.
+                                </p>
+                                <a href="posts/want_great_ux_use_your_words.html" class="btn btn-secondary">Read More
+                                    &rarr;</a>
                             </div>
-                           <!-- Blog Post 11 -->
-                           <div class="card mb-4 border border-secondary">
-                                <a href="https://www.youtube.com/watch?v=ASAU1KJcp6I" target="_blank">
-                                    <img class="card-img-top" src="assets/images/no_ones_watching_blog_home.jpg" alt="responsive image bamboo tree blog">
-                                </a>
-                                <div class="card-body">
-                                    <h2 class="title">Making Users Priority One</h2>
-                                    <p class="card-text">
-                                        My latest site enhancement was a real-world test of whether I have the makings of a true developer. From a UX 
-                                        standpoint, I passed with flying colors.</p>
-                                    <a href="posts/making_users_priorty_one.html" class="btn btn-secondary">Read More &rarr;</a>
-                                </div>
-                                <div class="card-footer">
-                                    Posted August 30, 2018 by SM
-                                </div>
+                            <div class="card-footer">
+                                Posted September 10, 2018 by SM
                             </div>
+                        </div>
+                        <!-- Blog Post 11 -->
+                        <div class="card mb-4 border border-secondary">
+                            <a href="https://www.youtube.com/watch?v=ASAU1KJcp6I" target="_blank">
+                                <img class="card-img-top" src="assets/images/no_ones_watching_blog_home.jpg" alt="responsive image bamboo tree blog">
+                            </a>
+                            <div class="card-body">
+                                <h2 class="title">Making Users Priority One</h2>
+                                <p class="card-text">
+                                    My latest site enhancement was a real-world test of whether I have the makings of a
+                                    true developer. From a UX
+                                    standpoint, I passed with flying colors.</p>
+                                <a href="posts/making_users_priorty_one.html" class="btn btn-secondary">Read More
+                                    &rarr;</a>
+                            </div>
+                            <div class="card-footer">
+                                Posted August 30, 2018 by SM
+                            </div>
+                        </div>
                         <!-- Blog Post 10 -->
                         <div class="card mb-4 border border-secondary">
-                            <img class="card-img-top border-bottom border-secondary" src="assets/images/fizz_buzz_blog_home.jpg" alt="responsive image amazing product blog">
+                            <img class="card-img-top border-bottom border-secondary" src="assets/images/fizz_buzz_blog_home.jpg"
+                                alt="responsive image amazing product blog">
                             <div class="card-body">
                                 <h2 class="title">Who's Fizz Buzzin' Who?</h2>
                                 <p class="card-text">
-                                    I came face-to-face with the ultimate developer filtering question and failed. But that doesn't 
+                                    I came face-to-face with the ultimate developer filtering question and failed. But
+                                    that doesn't
                                     mean my dreams of coding are doomed.
                                 </p>
                                 <a href="posts/whos_fizz_buzzin_who.html" class="btn btn-secondary">Read More &rarr;</a>
@@ -123,7 +137,8 @@
                     </div>
                     <!-- Categories  Widget -->
                     <div class="col-md-4">
-                        <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/fpkc18?ref_src=twsrc%5Etfw">Tweets by fpkc18</a>
+                        <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/fpkc18?ref_src=twsrc%5Etfw">Tweets
+                            by fpkc18</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>

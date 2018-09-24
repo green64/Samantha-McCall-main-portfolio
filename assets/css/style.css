@@ -132,7 +132,6 @@ span.ital {
   }
 li {
     font-family: "Raleway", sans-serif;
-    font-style: italic;
     }
 li.content {
     font-family: "Raleway", sans-serif;
@@ -140,7 +139,7 @@ li.content {
     margin-left: 5px;
     /* list-style-position: inside; */
     list-style-type: square;
-    }
+    } 
 .border {
     top: 4px solid black;
     bottom: 4px solid black;
