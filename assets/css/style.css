@@ -59,7 +59,7 @@ h3 {
     }
 h3.sub {
     font-family: "Raleway", sans-serif;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-size: 21px;
     }
 h3.portlink {
@@ -165,6 +165,11 @@ li.content {
     position: relative;
     margin-top: 22%;
     }
+.right {
+        position: absolute;
+        right: 10px;
+        padding-left: 30px;
+}
 .screen {
     background-color: rgba(255,255,255,0.3);
     }
