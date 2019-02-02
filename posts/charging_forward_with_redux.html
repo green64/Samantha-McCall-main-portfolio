@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123872365-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'UA-123872365-1');
+     </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="../assets/images/myicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <title>Fresh Perspective Blog</title>
+</head>
+
+<body class="Site">
+    <main class="Site-content">
+        <div class="intro-2">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand brand" href="../index.html">
+                    <h2 class="brand">Samantha McCall</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../about.html" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                about
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../about.html">about</a>
+                                <a class="dropdown-item" href="../timeline.html">timeline</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../portfolio.html">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../content.html">content</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="../blog.html" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                blog
+                                <span class="sr-only">(current)</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../blog.html">new posts</a>
+                                <a class="dropdown-item" href="archive_worlds.html">archive</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-md-12 mb-3">
+                        <h1 class="shadow">Charging Forward with Redux</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Blog Entries Column -->
+                    <div class="col-lg-8 rounded">
+                        <!-- Preview Image -->
+                        <div class="col-lg=12 blog-bg rounded border border-secondary">
+                            <img class="img-fluid rounded border-bottom border-secondary" src="../assets/images/forward_with_redux_blog_post.png"
+                                alt="responsive image blog header">
+
+                            <hr class="m-3">
+
+                            <!-- Date/Time -->
+                            <p class="m-3">Posted January 28, 2019</p>
+
+                            <hr class="m-3">
+
+                            <!-- Post Content -->
+                            <p class="m-4 first">
+                                My automated blog is a big step closer &mdash; thanks to a new understanding of React's
+                                helper library Redux.
+                            </p>
+                            <p class="m-3">The basic definition of redux is to "bring back or revive." In the JavaScript library world, 
+                            Redux makes state mutations more predictable by imposing certain restrictions on how and when updates 
+                            &mdash; aka dispatch actions &mdash; happen. 
+                            </p>
+                            <h3 class="mx-3 pt-3 portlink">Exploring blog automation solutions</h3>
+                            <p class="m-3">
+                                Why explore Redux? Back in December, I blogged about learning projects I hoped to execute in 2019. It's
+                                not quite February, but I've already
+                                made progress on one: automating my blog. It's non-linear progress, because
+                                I don't think Redux will be useful for my purposes. But learning what won't work is part of the process. 
+                            </p>
+                            <p class="m-3">
+                                On the other hand, Redux IS a popular library. It works with other single page applications too, not just
+                                React. And understanding
+                                Redux has helped me better understand state, the benefits of a central data store, how
+                                dispatch actions maintain order in bigger apps, React life cycles, ES6, etc., all of which propels my coding progress
+                                forward.
+                            </p>
+                            <h3 class="mx-3 pt-3 portlink">What's the big deal about blog automation?</h3>
+                            <p class="m-3">
+                                My blog doesn't even accept comments right now, but there are
+                                still a lot of moving parts. And the manual updates required to keep those moving parts
+                                in sync take longer with every post I write. As of now, every update entails these steps:
+                                <ol>
+                                    <li>Creating an image in two sizes &mdash; one for the post itself, and one for the
+                                        blog page</li>
+                                    <li>Updating the third post preview on my Blog page with an excerpt from the new
+                                        post</li>
+                                    <li>Adding a link to the post I removed from the blog page to the Blog Archive</li>
+                                    <li>Adding the newest archived post to all archived posts</li>
+                                    <li>Switching out the right column on the now-archived blog from Twitter feed to
+                                        archive list</li>
+                                    <li>Switching the new post excerpt on my About and Content pages</li>
+                                    <li>Writing the new post</li>
+                                    <li>Pushing all updates to Github</li>
+                                    <li>Pushing all updates to my portfolio host, GoDaddy</li>
+                                </ol>
+                            </p>
+                            <p class="m-3">
+                                Automation won't eliminate all of these steps, but I should be able to auto-push
+                                archived posts to a searchable list. It also should make my blog more dynamic, 
+                                interactive, and less time-consuming.
+                            </p>
+                            <h3 class="mx-3 pt-3 portlink">My biggest little portfolio update so far</h3>
+                            <p class="m-3">
+                                Portfolio visitors who happen to click on <a class="blue" href="https://murmuring-lake-30920.herokuapp.com/" target="_blank">my new Redux app</a> 
+                                will be underwhelmed. What's so important about a couple of clickable post excerpts 
+                                you can delete? On its face, nothing. But when I demo that app, I'll explain it 
+                                represents the research I've done to determine the best method for creating
+                                a more automated, interactive blog. It's also the first project I wasn't specifically assigned.
+                                Despite choosing my own path of study, I believe my app displays progress, and I'm proud to post it online. 
+                                It's well-commented, it's successfully deployed to Heroku, and it's an 
+                                amazing learning tool that illustrates my eagerness for and commitment to growing as a developer.
+                            </p>
+                            <p class="m-3">
+                                I have the next step in my blog research journey ready to go &mdash; including 
+                                <a class="blue" href="https://www.samanthamccallfp18.com/portfolio.html" 
+                                target="_blank">first-row portfolio placeholder spots</a>  
+                                for it and my future final product: a lean, mean React-based blog. 
+                            </p>
+                            <a href="../blog.html"><button class="btn btn-secondary m-3 mb-4">&larr; Back to
+                                    Blogs</button></a>
+                            &nbsp;
+
+                        </div>
+                    </div>
+
+                    <!-- Categories  Widget -->
+                    <div class="col-md-4">
+                        <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/fpkc18?ref_src=twsrc%5Etfw">Tweets
+                            by fpkc18</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+    </main>
+    <footer class="py-4 bg-dark footer">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Samantha McCall <script>
+                    document.write(new Date().getFullYear())
+                </script>
+            </p>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="mailto:samanthamccallfp18@gmail.com">
+                    <i class="fas fa-at"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="https://twitter.com/fpkc18" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="../assets/images/SAMANTHA_MCCALL_web_developer.pdf" target="_blank">
+                    <i class="fas fa-file-alt"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="https://www.linkedin.com/in/samantha-mccall-44303a6/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+            <span class="fa-stack fa-2x">
+                <a class="footer" href="https://github.com/green64" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer -->
+    <!-- these scripts are required by Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
