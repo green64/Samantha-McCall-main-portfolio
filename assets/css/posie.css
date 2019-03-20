@@ -227,8 +227,6 @@ figure {
   }
     40% {
     opacity: 1;
-    transform: scale(1.1);
-    -ms-transform: scale(1.1);
   }
   100% {
     opacity: 0;
