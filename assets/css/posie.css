@@ -170,11 +170,23 @@ figure {
   5% {
     opacity: 1;
   }
+    15% {
+    opacity: 1;
+  }
+    20% {
+    opacity: 1;
+  }
   25% {
     opacity: 1;
   }
   30% {
-    opacity: 0;
+    opacity: 1;
+  }
+    35% {
+    opacity: 1;
+  }
+    40% {
+    opacity: 1;
     transform: scale(1.1);
     -ms-transform: scale(1.1);
   }
@@ -193,12 +205,25 @@ figure {
   5% {
     opacity: 1;
   }
+     15% {
+    opacity: 1;
+  }
+    20% {
+    opacity: 1;
+  }
   25% {
     opacity: 1;
   }
   30% {
-    opacity: 0;
-    -webkit-transform: scale(1.1);
+    opacity: 1;
+  }
+    35% {
+    opacity: 1;
+  }
+    40% {
+    opacity: 1;
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
   }
   100% {
     opacity: 0;
