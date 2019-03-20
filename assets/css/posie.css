@@ -28,6 +28,11 @@ body, html {
       font-size: 1rem;
       }
 
+/* selected link */
+a:active {
+  color: #C71585;
+}
+
 .container {
   display: grid;
   width: 70%;
