@@ -1,0 +1,24 @@
+body{
+padding: 50px;
+}
+
+.trigger {
+  width: 200px;
+  height: 200px;
+  border: 20px solid #999;
+}
+
+.box {
+  display: inline block;
+  background: pink;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  transition: transform 300ms ease-in-out;
+  pointer-events: none;
+}
+/* offload hover onto trigger, then transform child of trigger - box  */
+  .trigger:clicked .box {
+    transform: translate(200px, 150px);
+    rotate: (20deg);
+  }
