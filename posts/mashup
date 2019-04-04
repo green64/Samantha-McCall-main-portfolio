@@ -63,7 +63,8 @@ h6 {
 
 <title>My Example</title>
 
-<marquee behavior="scroll" direction="up" scrollamount="2" style="height:200px;"><p>Building a new site, with an S P A</p>
+<marquee behavior="scroll" direction="up" scrollamount="2" style="height:200px;">
+<p>Building a new site, with an S P A</p>
   <p>Use React or Vue &mdash; who knows which one's gonna stay</p>
     <p>Develop new components and compile them</p>
   <p>Determining our state</p>
@@ -83,10 +84,12 @@ h6 {
         <p>I'd comment but I'm lazy</p>
         <p>I'd comment but I'm lazy</p>
         <p> ~ <p>
-<p>Building a new site, with an S P A</p>
-  <p>Use React or Vue &mdash; who knows which one's gonna stay</p>
-    <p>Develop new components and compile them</p>
-  <p>Determining our state</p>
+<p>What's your repo U R L</p>
+  <p>How 'bout your tech stack?</p>
+    <p>Are you degradation-prone</p>
+  <p>Or more Team Enhancement</p>
+  
+  
   <p>Now we're finally ready to create</p>
         <p>~</p>
   <p>Figure out which one's the parent</p>
