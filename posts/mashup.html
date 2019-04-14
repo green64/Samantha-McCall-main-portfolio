@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <style>
+    /* holds everything in the grid */
+    .canvas {
+      display: grid;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      grid-template-columns: 30% auto;
+      grid-template-rows: 20% auto;
+      grid-gap: 40px;
+      padding: 10px;
+    }
+
+    .header {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .sidebar {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      border: 1 solid black;
+    }
+
+    .content {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    body,
+    html {
+      font-family: "Arial", Helvetica, Sans-serif;
+      /* width: 150wh; */
+      height: 90vh;
+      margin-top: 30px;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      -webkit-animation: Gradient 15s ease infinite;
+      -moz-animation: Gradient 15s ease infinite;
+      animation: Gradient 15s ease infinite;
+    }
+
+    h1 {
+      color: #fff;
+      padding: 10px;
+      font-size: 36px;
+      text-shadow: 3px 5px 10px #000;
+    }
+
+    p {
+      padding-left: 20px;
+      text-size: 30px;
+      color: #fff;
+    }
+
+    /* for the full song lyrics to differentiate */
+    p.black {
+      font-family: "Arial", Helvetica, Sans-serif;
+      padding-left: 20px;
+      text-size: 30px;
+      line-height: 150%;
+      color: #000;
+    }
+
+    @-webkit-keyframes Gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @-moz-keyframes Gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @keyframes Gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* using these on complete song only */
+    .toggle-content {
+      display: none;
+    }
+
+    .toggle-content.is-visible {
+      display: block;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    /* jukebox button styling */
+    .jukebox-button {
+      margin: 15px 0px 10px 20px;
+      padding: 10px;
+      border-radius: 25px;
+      box-shadow: 3px 5px 10px #000;
+    }
+
+    span {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 30px;
+    }
+
+    #complete-song {
+      margin-top: 140px;
+      height: 1300px;
+      width: 50%;
+      border-radius: 10px;
+      position: absolute;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      top: 50px;
+      box-shadow: 3px 5px 10px #000;
+    }
+
+    #go {
+      border-radius: 25px;
+      margin-left: auto;
+      /* Automatic margin from left */
+      margin-right: auto;
+      /* Automatic margin from right */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container canvas">
+    <div class="header">
+      <h1>I'd Comment But I'm Lazy</h1>
+    </div>
+    <div class="sidebar">
+      <img src="../assets/images/pink-jukebox.png" height="428" width="318" alt="jukebox"></br>
+      <iframe width="318" height="65" id="go" src="https://www.youtube-nocookie.com/embed/R-UnyOVl2NY"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      <span><input type="button" class="jukebox-button" value="Start"
+          onClick="document.getElementById('mymarquee').start();" />
+        <input type="button" class="jukebox-button" value="Stop"
+          onClick="document.getElementById('mymarquee').stop();" />
+        <button class="jukebox-button button"><a class="toggle" href="#complete-song">All lyrics</a></button></span>
+    </div>
+    <div class="content" id="scroll">
+      <marquee behavior="scroll" id="mymarquee" direction="up" scrollamount="1" class="z-index: -1;"
+        style="height:400px">
+        <p>Building a new site, with an S P A</p>
+        <p>Use React or Vue &mdash; who knows which one's gonna stay</p>
+        <p>Develop new components and compile them</p>
+        <p>Determining our state</p>
+        <p>Now we're finally ready to create</p>
+        <p>~~~</p>
+        <p>Figure out which one's the parent</p>
+        <p>Then just manage it</p>
+        <p>Stay within your function</p>
+        <p>Don't go off on a tangent</p>
+        <p>Oh just stop with lists of features</p>
+        <p>Check your U X</p>
+        <p>The P M is a T-rex</p>
+        <p>Agility has failed us</p>
+        <p>~~~</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>~~~</p>
+        <p></p>
+        <p>What's your repo U R L</p>
+        <p>How 'bout your tech stack?</p>
+        <p>Are you degradation-prone</p>
+        <p>Or more Team Enhancement</p>
+        <p>I hear Python's the new must-have</p>
+        <p>Oh hell, I don't know</p>
+        <p>In the full stack we trust</p>
+        <p>Agility has failed us</p>
+        <p>~~~</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>~~~</p>
+        <p></p>
+        <p>Facebook's facing slowdowns</p>
+        <p>Sheryl Sandberg's blamin Soros</p>
+        <p>Deconstruct your function</p>
+        <p>Cause there's no free luncheon</p>
+        <p>Better choose a platform fast</p>
+        <p>ACCELERATE</p>
+        <p>There's no time to hesitate</p>
+        <p>Your skill's already outta data</p>
+        <p>Guess it doesn't really matter</p>
+        <p>'Bout your errors</p>
+        <p>Or which fix you try</p>
+        <p>Debuggin's nigh ...</p>
+        <p>I hear the boss is A I</p>
+        <p>~~~</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>I'd comment but I'm lazy</p>
+        <p>Who really knows what the future holds</p>
+        <p>I'd comment but I'm lazy</p>
+      </marquee>
+      <div id="complete-song" class="toggle-content">
+        <p class="black">Building a new site, with an S P A</br>
+          Use React or Vue &mdash; who knows which one's gonna stay
+          </br>
+          Develop new components and compile them</br>
+          Determining our state</br>
+          Now we're finally ready to create</br>
+          ~~~</br>
+          Figure out which one's the parent</br>
+          Then just manage it</br>
+          Stay within your function</br>
+          Don't go off on a tangent</br>
+          Oh just stop with lists of features</br>
+          Check your U X</br>
+          The P M is a T-rex</br>
+          Agility has failed us</br>
+          ~~~</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          ~~~</br>
+          What's your repo U R L</br>
+          How 'bout your tech stack?</br>
+          Are you degradation-prone</br>
+          Or more Team Enhancement</br>
+          I hear Python's the new must-have</br>
+          Oh hell, I don't know</br>
+          In the full stack we trust</br>
+          Agility has failed us</br>
+          ~~~</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          ~~~</br>
+          Facebook's facing slowdowns</br>
+          Sheryl Sandberg's blamin Soros</br>
+          Deconstruct your function</br>
+          Cause there's no free luncheon</br>
+          Better choose a platform fast</br>
+          ACCELERATE</br>
+          There's no time to hesitate</br>
+          Your skill's already outta data</br>
+          Guess it doesn't really matter</br>
+          'Bout your errors</br>
+          Or which fix you try</br>
+          Debuggin's nigh ...</br>
+          I hear the boss is A I</br>
+          ~~~</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          I'd comment but I'm lazy</br>
+          Who really knows what the future holds</br>
+          I'd comment but I'm lazy</br>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Show an element
+    var show = function (elem) {
+      elem.classList.add("is-visible");
+    };
+
+    // Hide an element
+    var hide = function (elem) {
+      elem.classList.remove("is-visible");
+    };
+
+    // Toggle element visibility
+    var toggle = function (elem) {
+      elem.classList.toggle("is-visible");
+    };
+
+    // Listen for click events
+    document.addEventListener(
+      "click",
+      function (event) {
+        // Make sure clicked element is our toggle
+        if (!event.target.classList.contains("toggle")) return;
+
+        // Prevent default link behavior
+        event.preventDefault();
+
+        // Get the content
+        var content = document.querySelector(event.target.hash);
+        if (!content) return;
+
+        // Toggle the content
+        toggle(content);
+      },
+      false
+    );
+  </script>
+</body>
+
+</html>
