@@ -163,6 +163,51 @@
       margin-right: auto;
       /* Automatic margin from right */
     }
+
+    @media (max-width: 500px) {
+      .canvas {
+      display: grid;
+      width: 85%;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+    .header {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .sidebar {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      border: 1 solid black;
+    }
+
+    .content {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+
+    #complete-song {
+      margin-top: 780px;
+      height: auto;
+      width: 75%;
+      border-radius: 10px;
+      position: absolute;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      top: 50px;
+      box-shadow: 3px 5px 10px #000;
+    }
+
+      header,
+      sidebar,
+      content
+    }
   </style>
 </head>
 
@@ -173,8 +218,8 @@
     </div>
     <div class="sidebar">
       <img src="../assets/images/pink-jukebox.png" height="428" width="318" alt="jukebox"></br>
-      <iframe width="318" height="65" id="go" src="https://www.youtube-nocookie.com/embed/R-UnyOVl2NY"
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      <iframe width="318" height="65" id="go" src="https://www.youtube-nocookie.com/embed/R-UnyOVl2NY" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
       <span><input type="button" class="jukebox-button" value="Start lyrics"
           onClick="document.getElementById('mymarquee').start();" />
         <input type="button" class="jukebox-button" value="Stop lyrics"
