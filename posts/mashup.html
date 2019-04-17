@@ -145,6 +145,16 @@
       box-shadow: 3px 5px 10px #000;
     }
 
+    input {
+      margin: 15px 5px 10px 20px;
+      padding: 10px;
+      background: #fff;
+      font-weight: bolder;
+      color: #e73c7e;
+      border-radius: 25px;
+      box-shadow: 3px 5px 10px #000;
+    }
+
     span {
       display: flex;
       justify-content: flex-start;
@@ -226,9 +236,9 @@
       <img src="../assets/images/pink-jukebox.png" height="428" width="318" alt="jukebox"></br>
       <iframe width="318" height="65" id="go" src="https://www.youtube-nocookie.com/embed/R-UnyOVl2NY" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-      <span><input type="button" class="jukebox-button" value="Start lyrics"
+      <span><input type="button" value="Start lyrics"
           onClick="document.getElementById('mymarquee').start();" />
-        <input type="button" class="jukebox-button" value="Stop lyrics"
+        <input type="button" value="Stop lyrics"
           onClick="document.getElementById('mymarquee').stop();" />
         <button class="jukebox-button button"><a class="toggle" href="#complete-song">All lyrics</a></button></span>
     </div>
