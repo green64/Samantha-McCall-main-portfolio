@@ -96,29 +96,29 @@
                                 and in no danger of dying off anytime soon. So I found a tutorial, built an app with a remote database, learned a ton, and 
                                 decided to add the app to my <a class="blue" href="../portfolio.html" target="_blank">digital portfolio</a>. I knew 
                                 I could host my low-traffic database-driven app free on Heroku, but I also knew I'd have to tweak it to work remotely. 
-                                After some research, I decided the JawsDB add-on was the best tool for the tweaking and proceded accordingly. 
+                                I researched my options and decided a JawsDB add-on was the best tool for the tweaking and proceded accordingly. 
                             </p>
                             <p class="m-3">
                                 The first important tip I learned about moving a PHP app to Heroku is that I needed to install the 
-                                Composer <b>package manager</b> to create my composer.json file. This file delineates the programs 
-                                 used to create the app, some of which are called <b>dependencies</b>. As the name implies, the app 
+                                Composer package manager to create my composer.json file. This file delineates the programs 
+                                used to create the app, some of which are called dependencies. As the name implies, the app 
                                 is dependent on certain programs to run, and Composer manages the process of making them available in the server 
-                                <b>environment</b>, i.e. Heroku. With my JawsDB add-on in place and my composer.json file accurately listing my  
+                                environment, i.e. Heroku. With my JawsDB add-on in place and my composer.json file accurately listing my  
                                 dependencies, I figured I was headed the right direction.</p>
                             <h3 class="mx-3 pt-3 portlink">The journey hits a snag</h3>
                             <p class="m-3">
-                               As I researched working with PHP and MySQL in Heroku, I had numerous epiphanies. For instance, I realized that while my previous 
+                               Researching how to work with PHP and MySQL in Heroku wasn't full of hilarious road trip hijinks, but it did have a few light bulb moments. For instance, I realized that while my previous 
                                databases were stored on my computer, my current database was already remote. So maybe all this add-on, .json file stuff 
-                               was a dead end. But the app wasn't working in Heroku as it had locally, so something needed to be tweaked. I kept 
+                               was a dead end. But the app stopped working once I pushed it to the Heroku environment, so something still needed tweaking. I kept 
                                researching. <a class="blue" href="https://www.youtube.com/watch?v=oLWKW-88luA" target="_blank">YouTube videos</a> ... 
                                <a class="blue" href="https://stackoverflow.com/questions/9822313/remote-connect-to-cleardb-heroku-database" target="_blank">
                                Stack Overflow threads</a> ... <a class="blue" href="https://getcomposer.org/doc/00-intro.md" target="_blank">Composer documentation</a> ... 
-                               I was determined to reach my destination, which in this case was a remotely hosted, fully functioning database-driven PHP app. 
+                               I was determined to reach my destination, which in my case was a remotely hosted, fully functioning database-driven PHP app. 
                             </p>
                             <p class="m-3">
-                                If you've ever endured a lengthy flight layover, a full-blown cancellation, an unexpected rerouting or a hellish combination 
-                                of the three, you empathize with Martin and Candy when they find themselves freezing in the back of a pickup on the outskirts 
-                                of Wichita instead of safely snug-as-a-bug at home in Chicago. After 10 to 12 hours of trying new solutions, uploading revisions, and checking my still-broken app, I felt 
+                                If you've ever endured a lengthy flight layover, a full-blown cancellation, unexpected rerouting or a hellish combination 
+                                of the three, you empathize with Martin and Candy freezing in the back of a pickup on the outskirts of Wichita instead of 
+                                safely snug-as-a-bug at home in Chicago. After 10 to 12 hours of trying new solutions, uploading revisions, and checking my still-broken app, I felt 
                                 their pain too. I knew I was close to a breakthrough. But like those last hundred miles they spend in the doorless car that 
                                 eventually catches fire, I still had a ways to go.
                             </p>
@@ -133,7 +133,7 @@
                                 A quick schema setup in MySQL Pro followed by an equally quick database import, and voila! I uncommented the JawsDB settings in 
                                 my db_connect.php file to make them available, pushed the updated files to Heroku for what seemed like the millionth time, and voila! 
                                 <a class="blue" href="https://agile-wildwood-45625.herokuapp.com/index.php" target="_blank">My PHP app was working</a>. Thanks to 
-                                Rowan's helpful tip I was finally home. 
+                                Rowan's helpful tip I was home &mdash; in time for Thanksgiving and everything! 
                             </p>
                             <p class="m-3">
                                 I realize there are more roadblocks, detours, and reroutes on the dev road ahead of me. But my knowledge base grows every time 
