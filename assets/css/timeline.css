@@ -102,6 +102,10 @@
 	background-image: url(../images/timelineImages/timeline8.jpg);
 }
 
+.user-9 {
+	background-image: url(../images/timelineImages/timeline9.jpg);
+}
+
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
 .event label,

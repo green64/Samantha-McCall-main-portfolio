@@ -11,6 +11,12 @@ body, html {
 .blog-bg {
     background-color: white; 
 }
+
+/* .color{
+    background: linear-gradient  (to right
+    #bd439e, 48%, #64a8c6);
+} */
+
 h1 {
     color: #343a40;
     font-family: "Quicksand", sans-serif;
